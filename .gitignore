@@ -1,0 +1,8 @@
+# ignore everything but the mods and config folders
+# change if needed
+/*
+!mods/
+!config/
+
+# dont ignore the gitignore duh
+!.gitignore
