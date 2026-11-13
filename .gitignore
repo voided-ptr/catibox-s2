@@ -5,6 +5,7 @@
 !config/
 !resourcepacks/
 !options.txt
+!CatiCardboardBoxLATEST.mrpack
 
 # dont ignore the gitignore duh
 !.gitignore
