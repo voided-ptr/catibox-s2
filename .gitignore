@@ -3,6 +3,8 @@
 /*
 !mods/
 !config/
+!resourcepacks/
+!options.txt
 
 # dont ignore the gitignore duh
 !.gitignore
