@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "version": 1,
+  "crystal": {
+    "enabled": true
+  },
+  "minecart": {
+    "enabled": true
+  },
+  "simulatedDesync": 0,
+  "tickTimeTolerance": 100
+}

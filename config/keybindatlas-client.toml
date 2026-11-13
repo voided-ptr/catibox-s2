@@ -1,0 +1,77 @@
+[general]
+	renderProfilingEnabled = false
+	compactKeybindTextLimitEnabled = true
+	maxCompactKeybindTextLength = 32
+	legendCollapsed = false
+	selectedKeybindSet = "Cati's Modded Box"
+	categoryHelpVisible = true
+	editHelpVisible = true
+	searchHelpVisible = true
+	setsHelpVisible = true
+	defaultPixelScale = 1
+	keyboardLayout = "US_QWERTY"
+	animationsEnabled = true
+	hiddenBindingsEnabled = true
+	categoriesEnabled = false
+	fKeysEnabled = true
+	allKeysEnabled = true
+	alternatingLineColorsEnabled = true
+	panelOpacity = 0.4000000059604645
+	maxUnhoveredAssignments = 3
+
+[layout]
+	#Scales the box width limit. Text still determines the actual width.
+	box_width = 100
+	#Scales vertical padding and row spacing without clipping text.
+	box_height = 100
+	#Minimum preferred space between info boxes.
+	box_gap = 5
+	#Space above the keyboard before the first box lane.
+	top_gap = 17
+	#Space below the keyboard before the first box lane.
+	bottom_gap = 15
+	#Space between the keyboard and side boxes.
+	side_gap = 10
+	#Higher values favor straighter lines. Lower values allow more turns.
+	bend_cost = 18
+	#Penalty for crossing another connector when a crossing is necessary.
+	crossing_cost = 1400
+	#Higher values discourage lines from running immediately beside each other.
+	line_separation = 10
+	#Keep assigned keys as routing obstacles, except the source key.
+	avoid_keys = true
+	#Try a crossing-free route first; allow crossings as a fallback.
+	avoid_crossings = true
+	#Use the existing smaller text and widths when many boxes are visible.
+	auto_compact = true
+
+[filters]
+	hiddenBindingLabels = ""
+	disabledMods = ""
+	disabledBindings = ""
+
+[categories]
+	presetCategoryColors = "crimson|Crimson|#B63C47FF\r\npurple|Purple|#9145D6FF\r\nemerald|Emerald|#1F9F4DFF\r\ntangerine|Tangerine|#F97316FF\r\namber|Amber|#F59E0BFF\r\ncyan|Cyan|#06B6D4FF\r\nrose|Rose|#EC4899FF\r\nlime|Lime|#84CC16FF\r\nteal|Teal|#14B8A6FF\r\ncopper|Copper|#B45309FF"
+	customCategories = "combat|Combat|#B63C47FF|#FFFFFFFF\r\nmagic|Magic|#9145D6FF|#FFFFFFFF\r\nmovement|Movement|#1F9F4DFF|#FFFFFFFF\r\nbuilding|Building|#F59E0BFF|#111318FF\r\nutility|Utility|#F97316FF|#FFFFFFFF\r\ntechnology|Technology|#06B6D4FF|#FFFFFFFF"
+	keyCategoryAssignments = "`::movement\r\nSHIFT::movement\r\nCTRL::movement\r\nSPACE::movement\r\nF::combat\r\nZ::building\r\nALT::utility\r\nN::utility\r\nM::utility\r\nB::utility\r\nV::utility\r\n1::utility\r\n2::utility\r\n3::utility\r\n9::utility\r\n7::utility\r\n8::utility\r\n6::utility\r\n5::utility\r\n4::utility\r\nQ::utility\r\nE::utility\r\nR::utility\r\nT::utility\r\nU::utility\r\nI::utility\r\nO::utility\r\nP::utility\r\nL::utility\r\nH::utility\r\nG::utility\r\nD::movement\r\nS::movement\r\nA::movement\r\nW::movement\r\nX::utility\r\nC::utility\r\n/::utility\r\nTAB::technology"
+
+[colors]
+	keyAssignedFill = -16686644
+	keyUnusedFill = -13684426
+	keyHiddenFill = -14737115
+	keyHoverFill = -10570753
+	keyAssignedText = -1
+	keyUnusedText = -6380888
+	keyHiddenText = -4868683
+	keyHoverText = -3090208
+	boxFill = -12960446
+	boxHoverFill = -12104878
+	boxBorder = -15000544
+	boxHoverBorder = -9262869
+	boxText = -1710619
+	boxSourceText = -6314578
+	keyboardFill = -15066080
+	keyboardBorder = -15921648
+	lineDefault = -7696490
+	lineDefaultAlt = -10723224
+	lineHover = -7947009

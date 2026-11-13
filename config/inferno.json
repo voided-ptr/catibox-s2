@@ -1,0 +1,10 @@
+{
+  "charredLogs": true,
+  "copperFire": true,
+  "onSoulFire": true,
+  "scorchedEarth": true,
+  "torchIgnition": true,
+  "entityFireSpreadChance": 0.5,
+  "lowerHudFire": true,
+  "smokyFog": true
+}

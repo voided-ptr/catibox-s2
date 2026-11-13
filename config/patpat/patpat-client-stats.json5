@@ -1,0 +1,82 @@
+{
+  "totalPatsCounter": {
+    "pats": 379
+  },
+  "entities": {
+    "alexsmobs:emu": {
+      "pats": 10
+    },
+    "antarchy:apple_cow": {
+      "pats": 10
+    },
+    "minecraft:skeleton": {
+      "pats": 23
+    },
+    "alexsmobs:raccoon": {
+      "pats": 21
+    },
+    "alexsmobs:gorilla": {
+      "pats": 10
+    },
+    "minecraft:trader_llama": {
+      "pats": 14
+    },
+    "minecraft:cow": {
+      "pats": 11
+    },
+    "minecraft:spider": {
+      "pats": 4
+    },
+    "minecraft:creeper": {
+      "pats": 3
+    },
+    "alexsmobs:fly": {
+      "pats": 11
+    },
+    "unique_mobs:venomous_zombie": {
+      "pats": 2
+    },
+    "alexsmobs:tasmanian_devil": {
+      "pats": 11
+    },
+    "minecraft:cat": {
+      "pats": 56
+    },
+    "alexsmobs:blue_jay": {
+      "pats": 16
+    },
+    "minecraft:player": {
+      "pats": 26
+    },
+    "minecraft:witch": {
+      "pats": 2
+    },
+    "unique_mobs:burrowing_creeper": {
+      "pats": 2
+    },
+    "notchcurrency:notch_npc": {
+      "pats": 63
+    },
+    "antarchy:scorpion": {
+      "pats": 18
+    },
+    "minecraft:fox": {
+      "pats": 2
+    },
+    "unique_mobs:web_spinner_spider": {
+      "pats": 5
+    },
+    "minecraft:zombie": {
+      "pats": 11
+    },
+    "minecraft:wolf": {
+      "pats": 7
+    },
+    "unique_mobs:builder_zombie": {
+      "pats": 9
+    },
+    "minecraft:axolotl": {
+      "pats": 7
+    }
+  }
+}

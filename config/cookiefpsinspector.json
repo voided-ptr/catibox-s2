@@ -1,0 +1,9 @@
+{
+  "sampling": true,
+  "rate": 1,
+  "window": 1,
+  "spikeMs": 50.0,
+  "overlay": false,
+  "overlayCorner": 1,
+  "spikeToasts": false
+}

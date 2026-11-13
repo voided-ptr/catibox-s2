@@ -1,0 +1,478 @@
+{
+  "beam": {
+    "render": true,
+    "postEffect": [
+      "defaultBloom"
+    ],
+    "useNameColor": true,
+    "useRarityColor": true,
+    "useStaticColor": false,
+    "color": "#FFFFFF",
+    "colorShimmer": true,
+    "shimmerGradient": [
+      {
+        "position": 0.0,
+        "source": "inherit",
+        "opacity": 100.0
+      },
+      {
+        "position": 50.0,
+        "source": "inherit",
+        "modifiers": [
+          "+h40"
+        ],
+        "opacity": 100.0
+      },
+      {
+        "position": 100.0,
+        "source": "inherit",
+        "opacity": 100.0
+      }
+    ],
+    "shimmerPeriod": 4.0,
+    "alpha": 0.75,
+    "minAlpha": 0.0,
+    "blending": "colored",
+    "appearance": "loot_beam",
+    "animatedEffect": "lootbeamsup:default",
+    "animatedEffectSettings": {},
+    "isDroplightAnimated": true,
+    "droplightAnimationSpeed": 1.0,
+    "gradientModifiers": [
+      "-h50",
+      "+s35",
+      "-v50",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "useCosmicEffect": true,
+    "gradient": [
+      {
+        "position": 0.0,
+        "source": "inherit",
+        "opacity": 100.0
+      },
+      {
+        "position": 50.0,
+        "source": "inherit",
+        "opacity": 100.0
+      },
+      {
+        "position": 100.0,
+        "source": "inherit",
+        "opacity": 0.0
+      }
+    ],
+    "isSolid": true,
+    "hasWhiteCenter": true,
+    "isGlowing": true,
+    "isFollowItemPosition": false,
+    "isFollowItemRotation": false,
+    "useSmoothSize": true,
+    "appear": {
+      "value": 1.0,
+      "driver": {
+        "input": "time",
+        "mode": "once",
+        "duration": 0.25
+      },
+      "curve": {
+        "interpolation": "linear",
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0
+          }
+        ]
+      }
+    },
+    "radius": 0.55,
+    "minRadius": 0.0,
+    "height": 3.0,
+    "minHeight": 0.0,
+    "offsetY": 0.0,
+    "renderDistance": 24.0,
+    "changeDelay": 1.0,
+    "approachOpacity": {
+      "value": 1.0,
+      "driver": {
+        "input": "distance",
+        "from": 2.0,
+        "to": 16.0
+      },
+      "curve": {
+        "interpolation": "linear",
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 1.0
+          },
+          {
+            "time": 1.0,
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    "approachSize": 1.0,
+    "isCommonShorter": true,
+    "requireOnGround": true
+  },
+  "objectEffects": [],
+  "groundEffects": [],
+  "particles": [
+    {
+      "name": "ambient",
+      "postEffect": [],
+      "script": "default",
+      "texture": "lootbeamsup:sparkle",
+      "blending": "particle",
+      "color": {
+        "mode": "beam",
+        "color": "#FFFFFF",
+        "opacity": 1.0
+      },
+      "isInheritsColor": true,
+      "spriteUpdateInterval": 1,
+      "count": 3.0,
+      "lifetime": 30,
+      "size": 0.25,
+      "useRandomSize": true,
+      "angleRadius": false,
+      "radius": 0.1,
+      "radialVerticesCount": 3,
+      "radialVerticesAngleOffset": 0,
+      "isClippedToAngle": false,
+      "isRotateAngle": false,
+      "isRotateAngleByPlayerYaw": false,
+      "radiusAngleRotationSpeed": 0.5,
+      "positionX": 0.0,
+      "positionY": 0.0,
+      "positionZ": 0.0,
+      "isFollowItemPosition": false,
+      "useRandomY": true,
+      "useRandomRadialPosition": true,
+      "speed": 0.2,
+      "speedX": 0.02,
+      "speedY": 0.04,
+      "speedZ": 0.02,
+      "movementOverLifetime": {
+        "interpolation": "linear",
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 1.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      "alphaOverLifetime": {
+        "interpolation": "smooth",
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 0.0
+          },
+          {
+            "time": 0.5,
+            "value": 1.0
+          },
+          {
+            "time": 1.0,
+            "value": 0.0
+          }
+        ]
+      },
+      "useConstantVerticalSpeed": false,
+      "attraction": 0.0,
+      "randomnessIntensity": 0.05,
+      "isRareOnly": true,
+      "directionX": 1.0,
+      "directionY": 1.0,
+      "directionZ": 1.0,
+      "isSpinAroundBeam": true,
+      "orbitMode": "vortex",
+      "trails": {
+        "render": false,
+        "postEffect": [],
+        "color": {
+          "mode": "beam",
+          "color": "#FFFFFF",
+          "opacity": 1.0
+        },
+        "isMakeParticleInvisible": true,
+        "lengthBlocks": 3.0,
+        "minVertexDistance": 0.01,
+        "chance": 0.4,
+        "width": {
+          "value": 0.2,
+          "driver": {
+            "input": "trail_position"
+          },
+          "curve": {
+            "interpolation": "smooth",
+            "keys": [
+              {
+                "time": 0.0,
+                "value": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 0.2
+              },
+              {
+                "time": 1.0,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        "alpha": {
+          "value": 1.0,
+          "driver": {
+            "input": "trail_position"
+          },
+          "curve": {
+            "interpolation": "smooth",
+            "keys": [
+              {
+                "time": 0.0,
+                "value": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "trails",
+      "postEffect": [],
+      "script": "default",
+      "texture": "lootbeamsup:glow",
+      "blending": "particle",
+      "color": {
+        "mode": "beam",
+        "color": "#FFFFFF",
+        "opacity": 1.0
+      },
+      "isInheritsColor": true,
+      "spriteUpdateInterval": 1,
+      "count": 2.0,
+      "lifetime": 30,
+      "size": 0.25,
+      "useRandomSize": true,
+      "angleRadius": false,
+      "radius": 0.15,
+      "radialVerticesCount": 3,
+      "radialVerticesAngleOffset": 0,
+      "isClippedToAngle": false,
+      "isRotateAngle": false,
+      "isRotateAngleByPlayerYaw": false,
+      "radiusAngleRotationSpeed": 0.5,
+      "positionX": 0.0,
+      "positionY": 0.0,
+      "positionZ": 0.0,
+      "isFollowItemPosition": false,
+      "useRandomY": true,
+      "useRandomRadialPosition": true,
+      "speed": 0.2,
+      "speedX": 0.02,
+      "speedY": 0.1,
+      "speedZ": 0.02,
+      "movementOverLifetime": {
+        "interpolation": "linear",
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 1.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      "alphaOverLifetime": {
+        "interpolation": "smooth",
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 0.0
+          },
+          {
+            "time": 0.5,
+            "value": 1.0
+          },
+          {
+            "time": 1.0,
+            "value": 0.0
+          }
+        ]
+      },
+      "useConstantVerticalSpeed": false,
+      "attraction": 0.0,
+      "randomnessIntensity": 0.05,
+      "isRareOnly": true,
+      "directionX": 1.0,
+      "directionY": 1.0,
+      "directionZ": 1.0,
+      "isSpinAroundBeam": true,
+      "orbitMode": "vortex",
+      "trails": {
+        "render": true,
+        "postEffect": [
+          "defaultBloom"
+        ],
+        "color": {
+          "mode": "beam",
+          "color": "#FFFFFF",
+          "opacity": 1.0
+        },
+        "isMakeParticleInvisible": true,
+        "lengthBlocks": 3.0,
+        "minVertexDistance": 0.01,
+        "chance": 1.0,
+        "width": {
+          "value": 0.02,
+          "driver": {
+            "input": "trail_position"
+          },
+          "curve": {
+            "interpolation": "smooth",
+            "keys": [
+              {
+                "time": 0.0,
+                "value": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 0.02
+              },
+              {
+                "time": 1.0,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        "alpha": {
+          "value": 1.0,
+          "driver": {
+            "input": "trail_position"
+          },
+          "curve": {
+            "interpolation": "smooth",
+            "keys": [
+              {
+                "time": 0.0,
+                "value": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "postEffects": [
+    {
+      "name": "defaultBloom",
+      "type": "lootbeamsup:soft_bloom",
+      "parameters": {
+        "threshold": 0.0,
+        "exposure": 1.5,
+        "intensity": 2.0,
+        "downsampleRate": 2.0,
+        "radius": 4.0,
+        "iterations": 1.0
+      }
+    }
+  ],
+  "channels": [],
+  "items": {
+    "postEffect": [],
+    "allowAll": false,
+    "allowEquipment": true,
+    "allowRare": true,
+    "whitelist": [],
+    "blacklist": [],
+    "colorOverrides": []
+  },
+  "nametags": {
+    "useAdvancedTooltips": true,
+    "useWorldspaceTooltips": true,
+    "useItemFrameTooltips": true,
+    "renderTooltipsInThirdPersonView": true,
+    "useBorders": true,
+    "renderNametags": true,
+    "renderNametagsOnLook": true,
+    "renderItemRarity": true,
+    "renderItemRarityInTooltip": true,
+    "renderStackCount": true,
+    "color": {
+      "mode": "beam",
+      "color": "#FFFFFF",
+      "opacity": 1.0
+    },
+    "nametagLookSensitivity": 0.018,
+    "nametagTextAlpha": 1.0,
+    "nametagScale": 1.0,
+    "nametagYOffset": 0.75,
+    "useWhiteRarities": false,
+    "useVanillaRarities": false,
+    "isScreenTooltipsRequireCrouch": true,
+    "canCombineNameAndRarity": false,
+    "customRarities": [],
+    "alwaysDrawRaritiesOn": [
+      "%Music Disc"
+    ]
+  },
+  "light": {
+    "render": true,
+    "type": "CAPSULE",
+    "isFollowItemPosition": false,
+    "offsetY": 0.0,
+    "color": {
+      "mode": "beam",
+      "color": "#FFFFFF",
+      "opacity": 1.0
+    },
+    "radius": 4.0,
+    "intensity": 1.0,
+    "occlusion": 2.0
+  },
+  "sound": {
+    "useCustomDropSound": false,
+    "soundVolume": 1.0
+  },
+  "preset": {
+    "selectedPreset": ""
+  }
+}

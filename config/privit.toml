@@ -1,0 +1,82 @@
+# HUD widget settings.
+[hud]
+	# Position of the region name widget on the screen.
+	# Allowed values:
+	#  TOP_LEFT
+	#  TOP_RIGHT
+	#  BOTTOM_LEFT
+	#  BOTTOM_RIGHT
+	region_name_position = "TOP_RIGHT"
+
+# Frozen (globally disabled) rules
+# Frozen rules are not evaluated and are hidden from all rule lists.
+# If a rule is later unfrozen, its previous state is restored in every region
+# to the value it had at the moment it was frozen.
+[frozen_rules]
+	# To freeze a rule, add its name to this list.
+	# You can copy rule names from the default_rules section.
+	# Each name must be quoted, and entries must be separated by commas.
+	# Example:
+	#  disabled = ["PVP", "BUILD", "CAUSE_EXPLOSION"]
+	disabled = []
+
+# Default rule states applied when a new group is created.
+# You can adjust the default state as you like
+# to minimize the setting each time you create a new group or region
+[default_rules]
+
+	# Default enabled/disabled state for each rule.
+	# true  — the rule is enabled by default
+	# false — the rule is disabled by default
+	[default_rules.rules]
+		PVP = false
+		BUILD = false
+		DROP_AND_PICKUP_ITEMS = false
+		ATTACK_PASSIVE_MOBS = false
+		CAUSE_EXPLOSIONS = false
+		INTERACT_WITH_ANIMALS = false
+		TRADE_WITH_VILLAGERS = false
+		SET_RESPAWN_POINT = false
+		INTERACT_WITH_CONTAINERS = false
+		INTERACT_WITH_DOORS = false
+		INTERACT_WITH_TRAPDOORS = false
+		INTERACT_WITH_FENCE_GATES = false
+		INTERACT_WITH_LEVERS = false
+		INTERACT_WITH_SIGNS = false
+		INTERACT_WITH_BOATS = false
+		INTERACT_WITH_MINECARTS = false
+		USE_TRIAL_MECHANICS = false
+		USE_FLUIDS = false
+		PRESS_BUTTONS = false
+		USE_PISTONS = false
+		USE_BONE_MEAL = false
+		USE_LEASHES = false
+		USE_FISHING_RODS = false
+		USE_FIRE_STARTERS = false
+		USE_FROST_WALKER = false
+		USE_SPAWN_EGGS = false
+		USE_SPONGES = false
+		EXTINGUISH_FIRE = false
+		THROW_POTIONS = false
+		THROW_ENDER_PEARLS = false
+		THROW_WIND_CHARGES = false
+		THROW_SNOWBALLS = false
+		THROW_EGGS = false
+		EAT_CHORUS_FRUITS = false
+		CREATE_NETHER_PORTALS = false
+		CAUSE_BLOCK_FALL = false
+		SPREAD_SCULK = false
+		TRIGGER_RAIDS = false
+		PUSH_ENTITIES = false
+
+# Limits related to region size
+[region_limits]
+	# Maximum region size in blocks.
+	# If a player tries to create or resize a region beyond this value,
+	# the operation will be denied.
+	# 0 or a negative value disables this limit.
+	max_area = 1048576
+	# Maximum number of regions a single player can own.
+	# This limit is checked when a new region is created.
+	# 0 or a negative value disables this limit.
+	max_regions_per_player = 5

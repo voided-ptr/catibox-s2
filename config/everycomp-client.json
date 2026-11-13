@@ -1,0 +1,6 @@
+{
+  "general": {
+    "dynamic_assets_generation_mode": "ALWAYS",
+    "use_external_resource_pack": false
+  }
+}

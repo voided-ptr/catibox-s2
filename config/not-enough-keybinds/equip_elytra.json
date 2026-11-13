@@ -1,0 +1,17 @@
+{
+	"swapFirst": "off",
+	"swapSecond": false,
+	"chooseBestChestplate": true,
+	"chooseBestElytra": true,
+	"acceptCurseOfBinding": false,
+	"acceptCurseOfVanishing": true,
+	"enterFlightMode": true,
+	"canExplode": false,
+	"longestDuration": false,
+	"fireworkSwapSlot": -1,
+	"equipMode": 2,
+	"swapBackOldItem": true,
+	"useRocket": true,
+	"selectRocket": true,
+	"autoDetect": false
+}

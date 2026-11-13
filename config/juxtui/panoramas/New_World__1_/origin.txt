@@ -1,0 +1,1 @@
+minecraft:overworld 72.5 71.0 -47.5

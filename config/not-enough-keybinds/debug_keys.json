@@ -1,0 +1,18 @@
+{
+	"debugKeybindings": {
+		"key.not-enough-keybinds.show_hitboxes": "key.keyboard.b",
+		"key.not-enough-keybinds.advanced_tooltips": "key.keyboard.h",
+		"key.not-enough-keybinds.creative_spectator": "key.keyboard.n",
+		"key.not-enough-keybinds.reload_chunks": "key.keyboard.a",
+		"key.not-enough-keybinds.chunk_boundaries": "key.keyboard.g",
+		"key.not-enough-keybinds.gamemodes": "key.keyboard.f4",
+		"key.not-enough-keybinds.clear_chat": "key.keyboard.d",
+		"key.not-enough-keybinds.profiling": "key.keyboard.l",
+		"key.not-enough-keybinds.help": "key.keyboard.q",
+		"key.not-enough-keybinds.pause_focus": "key.keyboard.p",
+		"key.not-enough-keybinds.copy_location": "key.keyboard.c",
+		"key.not-enough-keybinds.dump_dynamic_textures": "key.keyboard.s",
+		"key.not-enough-keybinds.inspect": "key.keyboard.i",
+		"key.not-enough-keybinds.reload_resourcepacks": "key.keyboard.t"
+	}
+}

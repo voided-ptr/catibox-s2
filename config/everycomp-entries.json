@@ -1,0 +1,211 @@
+{
+  "types": {
+    "wood_type": {
+      "alexscaves": {
+        "pewen": true,
+        "thornwood": true
+      },
+      "arts_and_crafts": {
+        "cork": true
+      },
+      "betternether": {
+        "nether_reed": true,
+        "stalagnate": true,
+        "willow": true,
+        "wart": true,
+        "rubeus": true,
+        "mushroom_fir": true,
+        "nether_mushroom": true,
+        "anchor_tree": true,
+        "nether_sakura": true,
+        "gloomwood": true,
+        "gloomwood_dark": true,
+        "gloomwood_transition": true
+      },
+      "biomesoplenty": {
+        "origin_oak": true,
+        "fir": true,
+        "pine": true,
+        "maple": true,
+        "redwood": true,
+        "mahogany": true,
+        "jacaranda": true,
+        "palm": true,
+        "willow": true,
+        "dead": true,
+        "magic": true,
+        "umbran": true,
+        "hellbark": true,
+        "empyreal": true
+      },
+      "blockus": {
+        "white_oak": true,
+        "legacy": true
+      },
+      "cinderscapes": {
+        "scorched": true,
+        "umbral": true
+      },
+      "cluttered": {
+        "willow": true,
+        "flowering_willow": true,
+        "poplar": true,
+        "flowering_poplar": true,
+        "crabapple": true,
+        "flowering_crabapple": true,
+        "sycamore": true,
+        "fluorescent_maple": true,
+        "blue_mushroom": true,
+        "red_mushroom": true
+      },
+      "ecologics": {
+        "flowering_azalea": true,
+        "azalea": true,
+        "coconut": true,
+        "maple": true,
+        "walnut": true
+      },
+      "inferno": {
+        "shining_oak": true
+      },
+      "promenade": {
+        "sakura": true,
+        "maple": true,
+        "palm": true,
+        "dark_amaranth": true
+      }
+    },
+    "leaves_type": {
+      "alexscaves": {
+        "ancient": true
+      },
+      "arts_and_crafts": {
+        "cork": true
+      },
+      "betternether": {
+        "willow": true,
+        "rubeus": true,
+        "anchor_tree": true,
+        "nether_sakura": true,
+        "gloomwood": true,
+        "gloomwood_bleached": true
+      },
+      "biomesoplenty": {
+        "null": true,
+        "flowering_oak": true,
+        "cypress": true,
+        "snowblossom": true,
+        "origin_oak": true,
+        "fir": true,
+        "pine": true,
+        "red_maple": true,
+        "orange_maple": true,
+        "yellow_maple": true,
+        "redwood": true,
+        "mahogany": true,
+        "jacaranda": true,
+        "palm": true,
+        "willow": true,
+        "dead": true,
+        "magic": true,
+        "umbran": true,
+        "hellbark": true,
+        "empyreal": true
+      },
+      "blockus": {
+        "white_oak": true,
+        "legacy": true
+      },
+      "cluttered": {
+        "willow": true,
+        "flowering_willow": true,
+        "poplar": true,
+        "flowering_poplar": true,
+        "crabapple": true,
+        "flowering_crabapple": true,
+        "sycamore": true,
+        "fluorescent_maple": true,
+        "flowering_fluorescent_maple": true
+      },
+      "ecologics": {
+        "coconut": true,
+        "red_maple": true,
+        "orange_maple": true,
+        "yellow_maple": true,
+        "green_maple": true,
+        "walnut": true
+      },
+      "inferno": {
+        "iron_shining_oak": true,
+        "golden_shining_oak": true
+      },
+      "promenade": {
+        "snowy_oak": true,
+        "snowy_spruce": true,
+        "snowy_birch": true,
+        "snowy_jungle": true,
+        "snowy_acacia": true,
+        "snowy_cherry": true,
+        "snowy_dark_oak": true,
+        "snowy_pale_oak": true,
+        "snowy_mangrove": true,
+        "snowy_azalea": true,
+        "snowy_flowering_azalea": true,
+        "sap_maple": true,
+        "snowy_sap_maple": true,
+        "vermilion_maple": true,
+        "snowy_vermilion_maple": true,
+        "fulvous_maple": true,
+        "snowy_fulvous_maple": true,
+        "mikado_maple": true,
+        "snowy_mikado_maple": true
+      }
+    }
+  },
+  "entries": {
+    "wood_type": {
+      "blockus": {
+        "mossy_stairs": true,
+        "post": true,
+        "cross_timber_frame": true,
+        "grate": true,
+        "small_logs": true,
+        "mosaic_stairs": true,
+        "mossy_slab": true,
+        "stripped_post": true,
+        "mosaic_slab": true,
+        "lattice": true,
+        "diagonal_timber_frame": true,
+        "timber_frame": true,
+        "mossy_planks": true,
+        "mosaic": true,
+        "herringbone_planks": true
+      },
+      "more_beautiful_torches": {
+        "log_soul_torch": true,
+        "stripped_log_redstone_torch_wall": true,
+        "log_torch_wall": true,
+        "stripped_log_redstone_torch": true,
+        "log_redstone_torch": true,
+        "planks_redstone_torch": true,
+        "log_soul_torch_wall": true,
+        "stripped_log_soul_torch_wall": true,
+        "log_torch": true,
+        "planks_redstone_torch_wall": true,
+        "stripped_log_soul_torch": true,
+        "log_redstone_torch_wall": true,
+        "planks_torch": true,
+        "planks_soul_torch": true,
+        "planks_soul_torch_wall": true,
+        "stripped_log_torch": true,
+        "stripped_log_torch_wall": true,
+        "planks_torch_wall": true
+      }
+    },
+    "leaves_type": {
+      "blockus": {
+        "hedge": true
+      }
+    }
+  }
+}

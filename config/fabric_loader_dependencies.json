@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "overrides": {
+    "automessage": {
+      "depends": {
+        "minecraft": "26.1.x"
+      }
+    },
+    "integrated_api": {
+      "depends": {
+        "minecraft": "26.1.x"
+      }
+    },
+    "alternate-current": {
+      "depends": {
+        "minecraft": "26.1.x"
+      }
+    },
+    "areaprotection": {
+      "depends": {
+        "minecraft": "26.1.x"
+      }
+    },
+    "minecraft": {
+      "+recommends": {
+        "Fabulously Optimized": ">13.6.0",
+        "minecraft": "26.1.2",
+        "fabricloader": ">=0.19.5"
+      }
+    },
+    "polytone": {
+      "recommends": {}
+    }
+  }
+}

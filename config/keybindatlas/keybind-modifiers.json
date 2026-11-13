@@ -1,0 +1,21 @@
+{
+  "key.effortlessbuilding.undo.desc": "CONTROL",
+  "key.do_a_barrel_roll.toggle_enabled": "ALT",
+  "key.jade.show_details": "ALT",
+  "key.xtracr_realcamera.togglePerspective": "SHIFT",
+  "key.bestiary.open": "NONE",
+  "key.fieldguide.open": "SHIFT",
+  "key.voice_chat": "ALT",
+  "key.immersive_machinery.action": "ALT",
+  "key.pingwheel.open_settings": "ALT",
+  "key.disable_voice_chat": "ALT",
+  "key.reachcrafting.toggle_craftable_filter": "ALT",
+  "key.shouldersurfing.swap_shoulder": "ALT",
+  "key.reachcrafting.quick_craft": "ALT",
+  "iris.keybind.shaderPackSelection": "ALT",
+  "key.effortlessbuilding.redo.desc": "SHIFT",
+  "terrastorage.keybinding.sort_inventory_bind": "ALT",
+  "key.immersive_aircraft.mouse_control": "ALT",
+  "key.travelersbackpack.inventory": "NONE",
+  "key.immersive_aircraft.boost": "CONTROL"
+}

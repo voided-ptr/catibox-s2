@@ -1,0 +1,40 @@
+# If true, clients with the mod installed will use this server config instead of their own.
+use-server-config: false
+# Sitting on blocks (e.g. slabs, stairs).
+sitting:
+  enabled: true
+  behavior: moveable
+  centered: false
+  blocks:
+  - '#minecraft:slabs'
+  - '#minecraft:stairs'
+  - '#minecraft:logs'
+  - '#minecraft:fences'
+  - '#minecraft:walls'
+# Riding other players (interact with a player to sit on their head).
+# teleport-mode is server-wide (ops only). Possible values:
+#   vanilla   -> let teleports happen as-is (passengers ride along same-dim,
+#                stay behind on cross-dim — and may crash without 'enhanced')
+#   disabled  -> drop passengers before any teleport
+#   enhanced  -> carry passengers along, including across dimensions (recommended)
+riding:
+  enabled: true
+  max-yaw-difference: 180
+  teleport-mode: enhanced
+# Double-sneak shortcuts for entering sit/crawl poses.
+sneak-activation:
+  enabled: true
+  window-ticks: 10
+  min-pitch-down: 60
+  prefer-crawl-in-tight-space: true
+# Commands.
+#   true       -> enabled with default name
+#   false      -> command is not registered
+#   "name"     -> enabled with a custom name (e.g. lay: sleep)
+# A server restart is required for command changes to take effect.
+commands:
+  root: true
+  sit: true
+  crawl: true
+  lay: true
+version: 2

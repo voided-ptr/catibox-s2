@@ -1,0 +1,47 @@
+{
+  "enabled": 2,
+  "criticalEnabled": 1,
+  "inGameConfigEnabled": true,
+  "numberScale": 1.5,
+  "numberDuration": 40,
+  "numberSeparation": -3,
+  "selectedFont": "retro_default",
+  "thresholds": [
+    5,
+    10,
+    15
+  ],
+  "colors": [
+    16777215,
+    16775688,
+    16515072,
+    9961472,
+    16777215
+  ],
+  "scaleBasedOnDamage": true,
+  "colorStyle": 0,
+  "animationShake": true,
+  "shakeIntensity": 10.0,
+  "shakeDuration": 40,
+  "animationPopIn": true,
+  "popinDuration": 5,
+  "animationFadeOut": true,
+  "fadeoutDuration": 10,
+  "flickerDuration": 15,
+  "flickerFrequency": 0.8,
+  "flickerIntensity": 0.7,
+  "animationScalePulse": true,
+  "scalePulseDuration": 105,
+  "scalePulseFactor": 0.1,
+  "indicatorsMaxSpawnDistance": 20,
+  "maxDamageThresholdSlider": 50,
+  "maxDurationSlider": 100,
+  "minScaleSlider": 0.5,
+  "maxScaleSlider": 2.0,
+  "debugMode": false,
+  "enableBlacklist": false,
+  "blacklistedEntities": [
+    "minecraft:zombie",
+    "useDebugMode:toSeeEntityNames"
+  ]
+}

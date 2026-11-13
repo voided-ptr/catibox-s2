@@ -1,0 +1,10 @@
+{
+	// Allows flower pots to be dyed when true. Default value: true
+	"enableDyedFlowerPots": true,
+	// Should chalk sticks be enabled? Default value: true
+	"enableChalkSticks": true,
+	// Allows decorated pots to be dyed when true. Default value: true
+	"enableDyedDecoratedPots": true,
+	// When true adds a new creative mode tab full of Arts & Crafts features!
+	"enableCreativeModeTab": true
+}

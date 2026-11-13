@@ -1,0 +1,15 @@
+{
+  "general": {
+    "server_assets_generation_mode": "ALWAYS",
+    "creative_tab_mode": "EC_TAB",
+    "tab_item_search": true,
+    "generate_blocktype_tags": true,
+    "mod_version_check_packet": true,
+    "debug_packet": false,
+    "tooltips": {
+      "mod_origin_enabled": true,
+      "block_type_enabled": true,
+      "show_on_advanced_tooltips": false
+    }
+  }
+}

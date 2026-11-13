@@ -1,0 +1,53 @@
+{
+  "general": {
+    "bloodless_entities": [],
+    "collision_occluders": [
+      "#minecraft:impermeable",
+      "#c:glass_panes"
+    ],
+    "body_size_scale": 1.0,
+    "debug_projection": false
+  },
+  "rendering": {
+    "projection_mode": "CYLINDER",
+    "uv_tessellation": false,
+    "uv_tess_level": 4,
+    "grid_snap": true,
+    "grid_snap_resolution": 16,
+    "blood_reveal_speed": 0.55,
+    "relight_interval_ticks": 1
+  },
+  "fade": {
+    "grace_ticks": 200,
+    "duration_ticks": 40
+  },
+  "runoff": {
+    "mode": "OFF",
+    "speed": 4.0E-4,
+    "max_tilt": 0.65
+  },
+  "ceiling_drip": {
+    "enabled": true,
+    "interval_ticks": 20,
+    "chance": 0.35,
+    "min_normal_y": 0.75,
+    "min_ceiling_coverage": 0.55,
+    "land_decal": true
+  },
+  "flecks": {
+    "count": 14,
+    "start_spread": 0.09,
+    "start_speed": 0.46
+  },
+  "gibs": {
+    "enabled": true,
+    "count": 6,
+    "start_speed": 0.3
+  },
+  "entity_overlay": {
+    "enabled": true,
+    "intensity_per_hit": 0.4,
+    "intensity_per_damage": 0.04,
+    "linger_ticks": 240
+  }
+}

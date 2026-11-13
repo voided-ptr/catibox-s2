@@ -1,0 +1,1097 @@
+{
+  "name": "Cati's Modded Box",
+  "bindings": {
+    "artifacts.key.charm_of_shrinking.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "artifacts.key.charm_of_sinking.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "artifacts.key.helium_flamingo.activate": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "artifacts.key.night_vision_goggles.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "artifacts.key.scarf_of_invisibility.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "artifacts.key.universal_attractor.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "iris.keybind.reload": {
+      "key": "key.keyboard.r",
+      "modifier": "NONE"
+    },
+    "iris.keybind.shaderPackSelection": {
+      "key": "key.keyboard.o",
+      "modifier": "ALT"
+    },
+    "iris.keybind.toggleShaders": {
+      "key": "key.keyboard.k",
+      "modifier": "NONE"
+    },
+    "iris.keybind.wireframe": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.advancements": {
+      "key": "key.keyboard.l",
+      "modifier": "NONE"
+    },
+    "key.attack": {
+      "key": "key.mouse.left",
+      "modifier": "NONE"
+    },
+    "key.back": {
+      "key": "key.keyboard.s",
+      "modifier": "NONE"
+    },
+    "key.bestiary.open": {
+      "key": "key.keyboard.o",
+      "modifier": "NONE"
+    },
+    "key.carry.desc": {
+      "key": "key.keyboard.left.shift",
+      "modifier": "NONE"
+    },
+    "key.chat": {
+      "key": "key.keyboard.t",
+      "modifier": "NONE"
+    },
+    "key.command": {
+      "key": "key.keyboard.slash",
+      "modifier": "NONE"
+    },
+    "key.converse.toggle_chat": {
+      "key": "key.keyboard.delete",
+      "modifier": "NONE"
+    },
+    "key.cookiefpsinspector.open": {
+      "key": "key.keyboard.f8",
+      "modifier": "NONE"
+    },
+    "key.debug.clearChat": {
+      "key": "key.keyboard.d",
+      "modifier": "NONE"
+    },
+    "key.debug.copyLocation": {
+      "key": "key.keyboard.c",
+      "modifier": "NONE"
+    },
+    "key.debug.copyRecreateCommand": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.debug.crash": {
+      "key": "key.keyboard.c",
+      "modifier": "NONE"
+    },
+    "key.debug.debugOptions": {
+      "key": "key.keyboard.f6",
+      "modifier": "NONE"
+    },
+    "key.debug.dumpDynamicTextures": {
+      "key": "key.keyboard.s",
+      "modifier": "NONE"
+    },
+    "key.debug.dumpVersion": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.debug.focusPause": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.debug.fpsCharts": {
+      "key": "key.keyboard.2",
+      "modifier": "NONE"
+    },
+    "key.debug.lightmapTexture": {
+      "key": "key.keyboard.4",
+      "modifier": "NONE"
+    },
+    "key.debug.modifier": {
+      "key": "key.keyboard.f3",
+      "modifier": "NONE"
+    },
+    "key.debug.networkCharts": {
+      "key": "key.keyboard.3",
+      "modifier": "NONE"
+    },
+    "key.debug.overlay": {
+      "key": "key.keyboard.f3",
+      "modifier": "NONE"
+    },
+    "key.debug.profiling": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.debug.profilingChart": {
+      "key": "key.keyboard.1",
+      "modifier": "NONE"
+    },
+    "key.debug.reloadChunk": {
+      "key": "key.keyboard.a",
+      "modifier": "NONE"
+    },
+    "key.debug.reloadLanguages": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.debug.reloadResourcePacks": {
+      "key": "key.keyboard.t",
+      "modifier": "NONE"
+    },
+    "key.debug.showAdvancedTooltips": {
+      "key": "key.keyboard.h",
+      "modifier": "NONE"
+    },
+    "key.debug.showChunkBorders": {
+      "key": "key.keyboard.g",
+      "modifier": "NONE"
+    },
+    "key.debug.showHitboxes": {
+      "key": "key.keyboard.b",
+      "modifier": "NONE"
+    },
+    "key.debug.spectate": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.debug.switchGameMode": {
+      "key": "key.keyboard.f4",
+      "modifier": "NONE"
+    },
+    "key.disable_voice_chat": {
+      "key": "key.keyboard.n",
+      "modifier": "ALT"
+    },
+    "key.do_a_barrel_roll.open_config": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.pitch_down": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.pitch_up": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.roll_left": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.roll_right": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.thrust_backward": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.thrust_forward": {
+      "key": "key.keyboard.w",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.toggle_enabled": {
+      "key": "key.keyboard.i",
+      "modifier": "ALT"
+    },
+    "key.do_a_barrel_roll.toggle_thrust": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.yaw_left": {
+      "key": "key.keyboard.a",
+      "modifier": "NONE"
+    },
+    "key.do_a_barrel_roll.yaw_right": {
+      "key": "key.keyboard.d",
+      "modifier": "NONE"
+    },
+    "key.drop": {
+      "key": "key.keyboard.q",
+      "modifier": "NONE"
+    },
+    "key.effortlessbuilding.open_modifiers_screen": {
+      "key": "key.keyboard.keypad.add",
+      "modifier": "NONE"
+    },
+    "key.effortlessbuilding.open_radial_menu": {
+      "key": "key.keyboard.left.alt",
+      "modifier": "NONE"
+    },
+    "key.effortlessbuilding.redo.desc": {
+      "key": "key.keyboard.z",
+      "modifier": "SHIFT"
+    },
+    "key.effortlessbuilding.undo.desc": {
+      "key": "key.keyboard.z",
+      "modifier": "CONTROL"
+    },
+    "key.entityculling.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.entityculling.toggleBoxes": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.fabrishot.screenshot": {
+      "key": "key.keyboard.f9",
+      "modifier": "NONE"
+    },
+    "key.fancytoasts.config_menu": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.fieldguide.open": {
+      "key": "key.keyboard.o",
+      "modifier": "SHIFT"
+    },
+    "key.fieldguide.scan": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.forward": {
+      "key": "key.keyboard.w",
+      "modifier": "NONE"
+    },
+    "key.fsit.crawl": {
+      "key": "key.keyboard.right.alt",
+      "modifier": "NONE"
+    },
+    "key.fsit.sit": {
+      "key": "key.keyboard.right.control",
+      "modifier": "NONE"
+    },
+    "key.fullscreen": {
+      "key": "key.keyboard.f11",
+      "modifier": "NONE"
+    },
+    "key.heartline.hide": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.heartline.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.hide_icons": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.hotbar.1": {
+      "key": "key.keyboard.1",
+      "modifier": "NONE"
+    },
+    "key.hotbar.2": {
+      "key": "key.keyboard.2",
+      "modifier": "NONE"
+    },
+    "key.hotbar.3": {
+      "key": "key.keyboard.3",
+      "modifier": "NONE"
+    },
+    "key.hotbar.4": {
+      "key": "key.keyboard.4",
+      "modifier": "NONE"
+    },
+    "key.hotbar.5": {
+      "key": "key.keyboard.5",
+      "modifier": "NONE"
+    },
+    "key.hotbar.6": {
+      "key": "key.keyboard.6",
+      "modifier": "NONE"
+    },
+    "key.hotbar.7": {
+      "key": "key.keyboard.7",
+      "modifier": "NONE"
+    },
+    "key.hotbar.8": {
+      "key": "key.keyboard.8",
+      "modifier": "NONE"
+    },
+    "key.hotbar.9": {
+      "key": "key.keyboard.9",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.boost": {
+      "key": "key.mouse.middle",
+      "modifier": "CONTROL"
+    },
+    "key.immersive_aircraft.dismount": {
+      "key": "key.keyboard.r",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.free_look": {
+      "key": "key.keyboard.v",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.mouse_control": {
+      "key": "key.keyboard.grave.accent",
+      "modifier": "ALT"
+    },
+    "key.immersive_aircraft.multi_control_backward": {
+      "key": "key.keyboard.s",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_down": {
+      "key": "key.keyboard.left.shift",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_forward": {
+      "key": "key.keyboard.w",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_left": {
+      "key": "key.keyboard.a",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_pull": {
+      "key": "key.keyboard.s",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_push": {
+      "key": "key.keyboard.w",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_right": {
+      "key": "key.keyboard.d",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_throttle_down": {
+      "key": "key.keyboard.left.shift",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_throttle_up": {
+      "key": "key.keyboard.space",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_control_up": {
+      "key": "key.keyboard.space",
+      "modifier": "NONE"
+    },
+    "key.immersive_aircraft.multi_use": {
+      "key": "key.mouse.right",
+      "modifier": "NONE"
+    },
+    "key.immersive_machinery.action": {
+      "key": "key.keyboard.e",
+      "modifier": "ALT"
+    },
+    "key.immersiveoverlays.settings": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.immersiveoverlays.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.inventory": {
+      "key": "key.keyboard.e",
+      "modifier": "NONE"
+    },
+    "key.jade.config": {
+      "key": "key.keyboard.keypad.0",
+      "modifier": "NONE"
+    },
+    "key.jade.narrate": {
+      "key": "key.keyboard.keypad.5",
+      "modifier": "NONE"
+    },
+    "key.jade.profile.0": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.jade.profile.1": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.jade.profile.2": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.jade.profile.3": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.jade.show_details": {
+      "key": "key.keyboard.x",
+      "modifier": "ALT"
+    },
+    "key.jade.show_overlay": {
+      "key": "key.keyboard.keypad.1",
+      "modifier": "NONE"
+    },
+    "key.jade.show_recipes": {
+      "key": "key.keyboard.keypad.3",
+      "modifier": "NONE"
+    },
+    "key.jade.show_uses": {
+      "key": "key.keyboard.keypad.4",
+      "modifier": "NONE"
+    },
+    "key.jade.toggle_liquid": {
+      "key": "key.keyboard.keypad.2",
+      "modifier": "NONE"
+    },
+    "key.jump": {
+      "key": "key.keyboard.space",
+      "modifier": "NONE"
+    },
+    "key.keybindatlas.cycle_controller_sets": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.keybindatlas.cycle_sets": {
+      "key": "key.keyboard.k",
+      "modifier": "ALT"
+    },
+    "key.keybindatlas.open_controller": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.keybindatlas.open_keyboard": {
+      "key": "key.keyboard.k",
+      "modifier": "NONE"
+    },
+    "key.left": {
+      "key": "key.keyboard.a",
+      "modifier": "NONE"
+    },
+    "key.loadToolbarActivator": {
+      "key": "key.keyboard.x",
+      "modifier": "NONE"
+    },
+    "key.modmenu.open_menu": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.mute_microphone": {
+      "key": "key.keyboard.m",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.always_place_item": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.clear_chat_history": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.decrease_master_volume": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.disconnect": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.equip_elytra": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.fast_block_breaking": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.fast_building": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.increase_master_volume": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.next_preset": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.next_preset_global": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.previous_preset": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.previous_preset_global": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.reload_all_chunks": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.reload_resource_packs": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.ambient": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.block": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.hostile": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.master": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.music": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.neutral": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.player": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.record": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.ui": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.voice": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.soundCategory.weather": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.switch_totem_shield": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.throw_ender_pearl": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.throw_wind_charge": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_advanced_tooltips": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_auto_pause": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_chunk_grid": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_hide_hud": {
+      "key": "key.keyboard.f1",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_hitboxes": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_second_skin_layer": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_skin_layer_cape": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_skin_layer_hat": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_skin_layer_jacket": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_skin_layer_left_pants_leg": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_skin_layer_left_sleeve": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_skin_layer_right_pants_leg": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_skin_layer_right_sleeve": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_spectator_mode": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.not-enough-keybinds.toggle_subtitles": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.notchcurrency.bounty_tracker": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.optigui.inspect": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.pickItem": {
+      "key": "key.mouse.middle",
+      "modifier": "NONE"
+    },
+    "key.pingwheel.open_settings": {
+      "key": "key.keyboard.p",
+      "modifier": "ALT"
+    },
+    "key.pingwheel.ping_location": {
+      "key": "key.mouse.middle",
+      "modifier": "NONE"
+    },
+    "key.playerlist": {
+      "key": "key.keyboard.tab",
+      "modifier": "NONE"
+    },
+    "key.plushables.show_lore": {
+      "key": "key.keyboard.left.control",
+      "modifier": "NONE"
+    },
+    "key.pointblack.attachments": {
+      "key": "key.keyboard.y",
+      "modifier": "NONE"
+    },
+    "key.pointblack.firemode": {
+      "key": "key.keyboard.b",
+      "modifier": "NONE"
+    },
+    "key.pointblack.inspect": {
+      "key": "key.keyboard.i",
+      "modifier": "NONE"
+    },
+    "key.pointblack.interact": {
+      "key": "key.keyboard.g",
+      "modifier": "NONE"
+    },
+    "key.pointblack.reload": {
+      "key": "key.keyboard.r",
+      "modifier": "NONE"
+    },
+    "key.pointblack.scope_switch": {
+      "key": "key.keyboard.v",
+      "modifier": "NONE"
+    },
+    "key.pointblack.settings": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.presencefootsteps.debug_toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.presencefootsteps.settings": {
+      "key": "key.keyboard.f10",
+      "modifier": "NONE"
+    },
+    "key.presencefootsteps.toggle": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.push_to_talk": {
+      "key": "key.mouse.5",
+      "modifier": "NONE"
+    },
+    "key.quickActions": {
+      "key": "key.keyboard.g",
+      "modifier": "NONE"
+    },
+    "key.reachcrafting.quick_craft": {
+      "key": "key.keyboard.b",
+      "modifier": "ALT"
+    },
+    "key.reachcrafting.show_filter_outlines": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.reachcrafting.toggle_craftable_filter": {
+      "key": "key.keyboard.space",
+      "modifier": "ALT"
+    },
+    "key.right": {
+      "key": "key.keyboard.d",
+      "modifier": "NONE"
+    },
+    "key.saveToolbarActivator": {
+      "key": "key.keyboard.c",
+      "modifier": "NONE"
+    },
+    "key.screenshot": {
+      "key": "key.keyboard.f2",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.adjust_camera_down": {
+      "key": "key.keyboard.page.down",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.adjust_camera_in": {
+      "key": "key.keyboard.up",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.adjust_camera_left": {
+      "key": "key.keyboard.left",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.adjust_camera_out": {
+      "key": "key.keyboard.down",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.adjust_camera_right": {
+      "key": "key.keyboard.right",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.adjust_camera_up": {
+      "key": "key.keyboard.page.up",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.enter_first_person": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.enter_shoulder_surfing": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.enter_third_person_back": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.enter_third_person_front": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.free_look": {
+      "key": "key.keyboard.v",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.swap_shoulder": {
+      "key": "key.keyboard.u",
+      "modifier": "ALT"
+    },
+    "key.shouldersurfing.toggle_camera_coupling": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.toggle_first_person": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.toggle_third_person_back": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.toggle_third_person_front": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.toggle_x_offset_presets": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.toggle_y_offset_presets": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.shouldersurfing.toggle_z_offset_presets": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.smoothCamera": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.sneak": {
+      "key": "key.keyboard.left.shift",
+      "modifier": "NONE"
+    },
+    "key.socialInteractions": {
+      "key": "key.keyboard.p",
+      "modifier": "NONE"
+    },
+    "key.spectatorHotbar": {
+      "key": "key.mouse.middle",
+      "modifier": "NONE"
+    },
+    "key.spectatorOutlines": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.sprint": {
+      "key": "key.keyboard.left.control",
+      "modifier": "NONE"
+    },
+    "key.stardew_fishing.minigame_button": {
+      "key": "key.mouse.left",
+      "modifier": "NONE"
+    },
+    "key.swapOffhand": {
+      "key": "key.keyboard.f",
+      "modifier": "NONE"
+    },
+    "key.toggleGui": {
+      "key": "key.keyboard.f1",
+      "modifier": "NONE"
+    },
+    "key.togglePerspective": {
+      "key": "key.keyboard.f5",
+      "modifier": "NONE"
+    },
+    "key.toggleSpectatorShaderEffects": {
+      "key": "key.keyboard.f4",
+      "modifier": "NONE"
+    },
+    "key.travelersbackpack.ability": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.travelersbackpack.cycle_tool": {
+      "key": "key.keyboard.z",
+      "modifier": "NONE"
+    },
+    "key.travelersbackpack.inventory": {
+      "key": "key.keyboard.b",
+      "modifier": "NONE"
+    },
+    "key.travelersbackpack.sort": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.travelersbackpack.toggle_upgrade_0": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.travelersbackpack.toggle_upgrade_1": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.travelersbackpack.toggle_upgrade_2": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.travelersbackpack.toggle_upgrade_3": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.use": {
+      "key": "key.mouse.right",
+      "modifier": "NONE"
+    },
+    "key.voice_chat": {
+      "key": "key.keyboard.v",
+      "modifier": "ALT"
+    },
+    "key.voice_chat_adjust_volumes": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.voice_chat_group": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.voice_chat_settings": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.voice_chat_toggle_recording": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.weaponmaster_ydm.opengui": {
+      "key": "key.keyboard.end",
+      "modifier": "NONE"
+    },
+    "key.whisper": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.activeConfigIndexNEXT": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.activeConfigIndexPREV": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.activeConfigIndexRESET": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.adjustBACK": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.adjustDOWN": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.adjustFRONT": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.adjustLEFT": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.adjustRIGHT": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.adjustUP": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.modelViewScreen": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.toggleAdjustMode": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.toggleCameraMode": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.xtracr_realcamera.togglePerspective": {
+      "key": "key.keyboard.r",
+      "modifier": "SHIFT"
+    },
+    "keybindings.spell_engine.bypass_spell_hotbar": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_1": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_2": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_3": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_4": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_5": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_6": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_7": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_8": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.spell_hotbar_9": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybindings.spell_engine.tooltip_details": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybinds.bettercombat.feint": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybinds.bettercombat.toggle_mine_with_weapons": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "keybinds.give_up": {
+      "key": "key.keyboard.g",
+      "modifier": "NONE"
+    },
+    "lambdynlights.key.toggle_fps_dynamic_lighting": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "lootbeamsup.keybindings.openMenu": {
+      "key": "key.keyboard.keypad.5",
+      "modifier": "NONE"
+    },
+    "patpat.keybinding.pat": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "physicsmod.keybinding.debug": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "physicsmod.keybinding.grabobject": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "physicsmod.keybinding.guiphysics": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "physicsmod.keybinding.physicsmenu": {
+      "key": "key.keyboard.f7",
+      "modifier": "NONE"
+    },
+    "physicsmod.keybinding.togglephysics": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "terrastorage.keybinding.favorite_item_modifier": {
+      "key": "key.keyboard.c",
+      "modifier": "NONE"
+    },
+    "terrastorage.keybinding.sort_inventory_bind": {
+      "key": "key.keyboard.r",
+      "modifier": "ALT"
+    },
+    "zoomify.key.zoom": {
+      "key": "key.keyboard.c",
+      "modifier": "NONE"
+    },
+    "zoomify.key.zoom.secondary": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    }
+  }
+}

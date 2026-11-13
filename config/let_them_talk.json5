@@ -1,0 +1,30 @@
+{
+  "modEnabled": true,
+  "useFade": true,
+  "fadeDurationSeconds": 0.5,
+  "voiceThresholdDb": -40.0,
+  "voiceSourceGateDb": -40.0,
+  "releaseDelaySeconds": 1.0,
+  "duckTargets": [
+    {
+      "process": "spotify"
+    },
+    {
+      "process": "chrome"
+    }
+  ],
+  "duckGameSounds": false,
+  "gameSoundVolumes": {
+    "voice": 1.0,
+    "music": 0.3,
+    "ui": 1.0,
+    "hostile": 1.0,
+    "record": 0.3,
+    "weather": 0.5,
+    "neutral": 1.0,
+    "block": 1.0,
+    "ambient": 0.5,
+    "master": 1.0,
+    "player": 1.0
+  }
+}
