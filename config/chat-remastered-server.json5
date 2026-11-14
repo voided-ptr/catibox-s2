@@ -1,0 +1,15 @@
+{
+  "resolution": "720",
+
+  "imagePort": 5050,
+
+  "photoCooldownSeconds": 5,
+
+  "gifEnabled": true,
+
+  "gifMaxDim": 480,
+
+  "maxPhotosPerMessage": 5,
+
+  "mutedMessage": "You are muted and cannot send messages, photos or replies."
+}

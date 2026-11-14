@@ -1,0 +1,10 @@
+{
+	"smartWidth": false,
+	"removeMessageIndicator": true,
+	"enableMessageAnimation": true,
+	"messageAnimationDuration": 500,
+	"enableTextFieldAnimation": true,
+	"textFieldAnimationDuration": 300,
+	"roundedChatBackground": true,
+	"chatBackgroundCornerRadius": 8
+}

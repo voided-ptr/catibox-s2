@@ -1,6 +1,6 @@
 [audio]
 	#Whether to center sounds made by the player.
-	center_player_sounds = false
+	center_player_sounds = true
 
 [camera]
 	#The distance multiplier on whether to hide the player model if the camera gets too close to it. Set to 0 to disable.
@@ -240,7 +240,7 @@
 
 	[camera.fov]
 		#Whether to apply the FOV override when in shoulder surfing perspective.
-		fov_override_enabled = false
+		fov_override_enabled = true
 		#The camera FOV when in shoulder surfing perspective. Depends on config option 'fov_override_enabled'.
 		# Default: 70.0
 		# Range: 30.0 ~ 110.0
@@ -281,7 +281,7 @@
 [crosshair]
 	#Crosshair type to use for shoulder surfing.
 	#Allowed Values: ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP, DYNAMIC_WITH_1PP
-	crosshair_type = "STATIC"
+	crosshair_type = "ADAPTIVE"
 	#Items that when held, trigger the dynamic crosshair in adaptive mode. This config option supports regular expressions. Example: 'minecraft:.*sword' matches 'minecraft:wooden_sword' and 'minecraft:netherite_sword'.
 	adaptive_crosshair_hold_items = ["minecraft:snowball", "minecraft:egg", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:splash_potion", "minecraft:fishing_rod", "minecraft:lingering_potion", "minecraft:wind_charge"]
 	#Items that when used, trigger the dynamic crosshair in adaptive mode. This config option supports regular expressions. Example: 'minecraft:.*sword' matches 'minecraft:wooden_sword' and 'minecraft:netherite_sword'.
@@ -363,7 +363,7 @@
 	#Whether to remember the last perspective used.
 	remember_last_perspective = true
 	#Whether to replace the default third person perspective.
-	replace_default_perspective = false
+	replace_default_perspective = true
 	#Whether the first person perspective is enabled.
 	first_person_enabled = true
 	#Whether the third person front perspective is enabled.
@@ -373,7 +373,7 @@
 
 	[perspective.temporary_first_person_in_constrained_spaces]
 		#Whether to switch to first person temporarily when space constrained.
-		enabled = false
+		enabled = true
 		#The minium time in ticks the temporary first will be active when entering a constrained space.
 		# Default: 60
 		# Range: > 0

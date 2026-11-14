@@ -4,7 +4,7 @@
   "faceOverlay": true,
   "externalAnimations": true,
   "capePhysics": true,
-  "lanternPhysics": false,
+  "lanternPhysics": true,
   "footIk": true,
   "handReach": true,
   "emfShieldOwnedIds": [],

@@ -85,7 +85,7 @@
     "signTextPaste": true,
     "toolItemEnabled": true,
     "unhideSchematicVCS": false,
-    "pasteReplaceBehavior": "none",
+    "pasteReplaceBehavior": "with_non_air",
     "pasteLayerBehavior": "all",
     "schematicVcsDeleteMode": "matching_block",
     "selectionCornersMode": "corners",

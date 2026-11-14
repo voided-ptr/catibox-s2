@@ -1,0 +1,21 @@
+{
+  "configVersion": 1,
+
+  "previewScale": 1.0,
+
+  "inputPreviewScale": 1.0,
+
+  "fullscreenChat": true,
+
+  "closedChatLines": 20,
+
+  "groupPhotosRowMode": true,
+
+  "screenshotsPanelOnLeft": false,
+
+  "removeAnimMode": 0,
+
+  "screenshotFolders": [],
+
+  "lastScreenshotFolderIndex": 0
+}

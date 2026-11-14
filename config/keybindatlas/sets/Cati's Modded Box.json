@@ -54,7 +54,7 @@
       "modifier": "NONE"
     },
     "key.bestiary.open": {
-      "key": "key.keyboard.o",
+      "key": "key.keyboard.b",
       "modifier": "NONE"
     },
     "key.carry.desc": {
@@ -70,7 +70,7 @@
       "modifier": "NONE"
     },
     "key.converse.toggle_chat": {
-      "key": "key.keyboard.delete",
+      "key": "key.keyboard.period",
       "modifier": "NONE"
     },
     "key.cookiefpsinspector.open": {
@@ -142,7 +142,7 @@
       "modifier": "NONE"
     },
     "key.debug.reloadLanguages": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.j",
       "modifier": "NONE"
     },
     "key.debug.reloadResourcePacks": {
@@ -230,7 +230,7 @@
       "modifier": "NONE"
     },
     "key.effortlessbuilding.redo.desc": {
-      "key": "key.keyboard.z",
+      "key": "key.keyboard.y",
       "modifier": "SHIFT"
     },
     "key.effortlessbuilding.undo.desc": {
@@ -250,7 +250,7 @@
       "modifier": "NONE"
     },
     "key.fancytoasts.config_menu": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.k",
       "modifier": "NONE"
     },
     "key.fieldguide.open": {
@@ -286,7 +286,7 @@
       "modifier": "NONE"
     },
     "key.hide_icons": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.h",
       "modifier": "NONE"
     },
     "key.hotbar.1": {
@@ -326,7 +326,7 @@
       "modifier": "NONE"
     },
     "key.immersive_aircraft.boost": {
-      "key": "key.mouse.middle",
+      "key": "key.keyboard.b",
       "modifier": "CONTROL"
     },
     "key.immersive_aircraft.dismount": {
@@ -334,7 +334,7 @@
       "modifier": "NONE"
     },
     "key.immersive_aircraft.free_look": {
-      "key": "key.keyboard.v",
+      "key": "key.keyboard.left.alt",
       "modifier": "NONE"
     },
     "key.immersive_aircraft.mouse_control": {
@@ -386,7 +386,7 @@
       "modifier": "NONE"
     },
     "key.immersive_machinery.action": {
-      "key": "key.keyboard.e",
+      "key": "key.keyboard.h",
       "modifier": "ALT"
     },
     "key.immersiveoverlays.settings": {
@@ -426,7 +426,7 @@
       "modifier": "NONE"
     },
     "key.jade.show_details": {
-      "key": "key.keyboard.x",
+      "key": "key.keyboard.left.shift",
       "modifier": "ALT"
     },
     "key.jade.show_overlay": {
@@ -654,7 +654,7 @@
       "modifier": "NONE"
     },
     "key.notchcurrency.bounty_tracker": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.b",
       "modifier": "NONE"
     },
     "key.optigui.inspect": {
@@ -666,11 +666,11 @@
       "modifier": "NONE"
     },
     "key.pingwheel.open_settings": {
-      "key": "key.keyboard.p",
+      "key": "key.keyboard.unknown",
       "modifier": "ALT"
     },
     "key.pingwheel.ping_location": {
-      "key": "key.mouse.middle",
+      "key": "key.mouse.5",
       "modifier": "NONE"
     },
     "key.playerlist": {
@@ -710,7 +710,7 @@
       "modifier": "NONE"
     },
     "key.presencefootsteps.debug_toggle": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.z",
       "modifier": "NONE"
     },
     "key.presencefootsteps.settings": {
@@ -722,7 +722,7 @@
       "modifier": "NONE"
     },
     "key.push_to_talk": {
-      "key": "key.mouse.5",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.quickActions": {
@@ -794,7 +794,7 @@
       "modifier": "NONE"
     },
     "key.shouldersurfing.free_look": {
-      "key": "key.keyboard.v",
+      "key": "key.keyboard.left.alt",
       "modifier": "NONE"
     },
     "key.shouldersurfing.swap_shoulder": {
@@ -930,7 +930,7 @@
       "modifier": "NONE"
     },
     "key.weaponmaster_ydm.opengui": {
-      "key": "key.keyboard.end",
+      "key": "key.keyboard.v",
       "modifier": "NONE"
     },
     "key.whisper": {
@@ -982,15 +982,15 @@
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.toggleCameraMode": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.f12",
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.togglePerspective": {
-      "key": "key.keyboard.r",
+      "key": "key.keyboard.f6",
       "modifier": "SHIFT"
     },
     "keybindings.spell_engine.bypass_spell_hotbar": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.left.alt",
       "modifier": "NONE"
     },
     "keybindings.spell_engine.spell_hotbar_1": {
@@ -1066,7 +1066,7 @@
       "modifier": "NONE"
     },
     "physicsmod.keybinding.guiphysics": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.f6",
       "modifier": "NONE"
     },
     "physicsmod.keybinding.physicsmenu": {
@@ -1078,7 +1078,7 @@
       "modifier": "NONE"
     },
     "terrastorage.keybinding.favorite_item_modifier": {
-      "key": "key.keyboard.c",
+      "key": "key.keyboard.left.alt",
       "modifier": "NONE"
     },
     "terrastorage.keybinding.sort_inventory_bind": {
@@ -1090,7 +1090,7 @@
       "modifier": "NONE"
     },
     "zoomify.key.zoom.secondary": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.f6",
       "modifier": "NONE"
     }
   }
