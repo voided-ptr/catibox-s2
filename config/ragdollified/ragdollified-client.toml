@@ -31,11 +31,11 @@
 	#Lower improves performance. Should not exceed renderDistance.
 	#Default: 80.0
 	#Range: 4.0 ~ 128.0
-	geckolibArmorRenderDistance = 80.0
+	geckolibArmorRenderDistance = 32.0
 	#Distance in blocks within which vanilla armor renders on ragdolls.
 	#Default: 100.0
 	#Range: 4.0 ~ 512.0
-	armorRenderDistance = 100.0
+	armorRenderDistance = 32.0
 	#Armor drawn on a ragdoll in place of modded armor whose texture can't be found.
 	#Leave empty to draw no armor there. Otherwise an equipment asset name: leather, chainmail,
 	#iron, gold, diamond, netherite, or modid:name for a modded one.
