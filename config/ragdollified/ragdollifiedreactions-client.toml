@@ -1,0 +1,10 @@
+#HEAD looks out of the body's eyes in first person; THIRD_PERSON switches to the behind view while you are limp.
+#Default: "HEAD"
+#Allowed Values: HEAD, THIRD_PERSON
+cameraMode = "HEAD"
+#Pressing sneak gets you up, as well as the ragdoll key.
+#Default: true
+sneakToGetUp = true
+#Show which key gets you up when you go limp.
+#Default: true
+showHint = true

@@ -286,7 +286,7 @@
       "modifier": "NONE"
     },
     "key.hide_icons": {
-      "key": "key.keyboard.h",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.hotbar.1": {
@@ -470,7 +470,7 @@
       "modifier": "NONE"
     },
     "key.loadToolbarActivator": {
-      "key": "key.keyboard.x",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.modmenu.open_menu": {
@@ -727,6 +727,14 @@
     },
     "key.quickActions": {
       "key": "key.keyboard.g",
+      "modifier": "NONE"
+    },
+    "key.ragdollifiedpr.charge_aed": {
+      "key": "key.keyboard.r",
+      "modifier": "NONE"
+    },
+    "key.ragdollifiedreactions.toggle": {
+      "key": "key.keyboard.x",
       "modifier": "NONE"
     },
     "key.reachcrafting.quick_craft": {
@@ -988,6 +996,14 @@
     "key.xtracr_realcamera.togglePerspective": {
       "key": "key.keyboard.f6",
       "modifier": "SHIFT"
+    },
+    "key.zarith.shift_down": {
+      "key": "key.keyboard.v",
+      "modifier": "NONE"
+    },
+    "key.zarith.shift_up": {
+      "key": "key.keyboard.r",
+      "modifier": "NONE"
     },
     "keybindings.spell_engine.bypass_spell_hotbar": {
       "key": "key.keyboard.left.alt",

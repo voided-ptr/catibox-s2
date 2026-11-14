@@ -1,0 +1,135 @@
+{
+  general: {
+    // YouTube OAuth Refresh Token
+    // Accepts text. Default: "".
+    oauthRefreshToken: "",
+    // YouTube PO Token
+    // Accepts text. Default: "".
+    poToken: "",
+    // YouTube Visitor Data
+    // Accepts text. Default: "".
+    visitorData: "",
+    // Allow YouTube Search
+    // Accepts true or false. Default: true.
+    allowYoutubeSearch: true,
+    // Which YouTube clients to try, in order, by youtube-source class name.
+    // YouTube periodically breaks one client or another, and a different order is the
+    // usual fix. An unknown name is skipped with a warning.
+    // The Tv client is appended automatically when an OAuth token is configured.
+    // Accepts a list of text. Default: ["IosWithThumbnail", "AndroidWithThumbnail", "AndroidVrWithThumbnail", "MusicWithThumbnail", "WebWithThumbnail"].
+    youtubeClients: [
+      "IosWithThumbnail",
+      "AndroidWithThumbnail",
+      "AndroidVrWithThumbnail",
+      "MusicWithThumbnail",
+      "WebWithThumbnail"
+    ]
+  },
+  // Which audio sources players are allowed to load from.
+  sources: {
+    // Allow YouTube links
+    // Accepts true or false. Default: true.
+    enableYoutube: true,
+    // Allow SoundCloud links
+    // Accepts true or false. Default: true.
+    enableSoundCloud: true,
+    // Allow Bandcamp links
+    // Accepts true or false. Default: true.
+    enableBandcamp: true,
+    // Allow Vimeo links
+    // Accepts true or false. Default: true.
+    enableVimeo: true,
+    // Allow Twitch stream links
+    // Accepts true or false. Default: true.
+    enableTwitch: true,
+    // Allow arbitrary direct HTTP(S) media URLs.
+    // OFF by default, and the only source that is. Every other source resolves through a
+    // known platform's API; this one makes the SERVER fetch whatever URL a player types,
+    // which can be used to probe hosts only the server can reach (other containers, the
+    // local network, cloud metadata endpoints). Enable only on a trusted player base, and
+    // preferably alongside urlAllowPatterns.
+    // Accepts true or false. Default: false.
+    enableHttp: false,
+    // Permit direct HTTP URLs that resolve to loopback, private, or link-local addresses,
+    // for operators only: other players are always refused, including through redirects
+    // and playlists. Only consulted when enableHttp is true. Leave false unless you are
+    // deliberately streaming from another machine on the same LAN.
+    // Accepts true or false. Default: false.
+    allowPrivateNetworkHosts: false,
+    // Allow players to share audio from their own computer through a receiver: an input
+    // device on their machine, such as a virtual audio cable an app plays into. A share
+    // is refused by a receiver's lock and counts toward maxPlayingReceivers like any track.
+    // Accepts true or false. Default: true.
+    enableLiveInput: true,
+    // Allow media:<name> to play a file from the soundstage-media folder in the server's
+    // directory (in singleplayer, the game directory). A player names a file directly in
+    // that folder and nothing else: no paths, no subfolders, no hidden files.
+    // Accepts true or false. Default: true.
+    enableMediaFolder: true
+  },
+  // How the server makes video for screens.
+  video: {
+    // Whether screens show video. On by default. Off, a display shows what is playing
+    // instead of a picture; the sound is the same either way.
+    // Accepts true or false. Default: true.
+    enableVideo: true,
+    // The ffmpeg program: a name on the PATH, or a full path. ffprobe is looked for beside it,
+    // then on the PATH. Optional: without it, media files play with sound only.
+    // Accepts text. Default: "ffmpeg".
+    ffmpegPath: "ffmpeg",
+    // Let Soundstage download ffmpeg when this server has none: a GPL build from
+    // github.com/BtbN/FFmpeg-Builds (tens of megabytes), checked against the SHA-256
+    // this version of Soundstage carries, test-run, and kept in the soundstage-ffmpeg
+    // folder in the server's directory. It is only used while ffmpegPath is "ffmpeg"
+    // and no ffmpeg runs from the PATH. Linux (x64, arm64, glibc) and Windows (x64,
+    // arm64); not macOS. OFF by default: turning it on means this server downloads and
+    // runs a program from the internet.
+    // Accepts true or false. Default: false.
+    downloadFfmpeg: false,
+    // Largest picture sent to screens, as the height of a 16:9 picture; a wider or
+    // narrower one may have as many pixels. Every client decodes it on its own processor,
+    // so larger costs every viewer more.
+    // Accepts a whole number from 144 to 1080. Default: 1080.
+    maxVideoHeight: 1080,
+    // Most receivers showing video at once. 0, the default, lets the server start another
+    // whenever it has room. A receiver waiting its turn plays the sound, and its displays
+    // show what is playing until its picture can start.
+    // Accepts a whole number from 0 to 1024. Default: 0.
+    maxPicturesEncoding: 0,
+    // How long a PNG or JPEG shows on displays before the receiver moves on, when
+    // something is queued after it; a queue of images on loop is a slideshow. An image
+    // alone in the queue stays until it is skipped, stopped or replaced.
+    // Accepts a whole number from 1 to 86400. Default: 10.
+    imageDisplaySeconds: 10
+  },
+  // Regex filters applied to the requested URL before it is resolved.
+  // If allow is non-empty a URL must match at least one entry to be accepted, and deny
+  // is not consulted. If allow is empty, any URL is accepted unless it matches deny.
+  // Patterns are matched against the whole URL, case-insensitively.
+  filters: {
+    // Example: ["^https://(www\\.)?youtube\\.com/.*"]
+    // Accepts a list of text. Default: [].
+    urlAllowPatterns: [
+    ],
+    // Example: [".*\\.exe$"]
+    // Accepts a list of text. Default: [].
+    urlDenyPatterns: [
+    ]
+  },
+  // Bounds on queues, and on how many receivers may play at once.
+  limits: {
+    // Most tracks one playlist link may enqueue. A watch URL carrying '&list=' or a search
+    // result queues only the track the player actually selected, so this applies to genuine
+    // playlist links.
+    // Accepts a whole number from 1 to 1000. Default: 25.
+    maxPlaylistTracks: 25,
+    // Most tracks a single receiver may hold queued at once.
+    // Accepts a whole number from 1 to 10000. Default: 100.
+    maxQueueSize: 100,
+    // Most receivers and party boxes that may play at once on this server; 0 means no limit.
+    // Each one playing decodes, encodes and streams audio to everyone nearby, and fetches from
+    // its source. A player asked to start one beyond this is told to stop another first.
+    // Accepts a whole number from 0 to 1024. Default: 16.
+    maxPlayingReceivers: 16
+  }
+}

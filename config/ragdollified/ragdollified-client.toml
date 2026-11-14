@@ -1,0 +1,65 @@
+#Render Settings
+[render]
+	#Distance in blocks beyond which ragdolls do not render.
+	#Default: 128.0
+	#Range: 4.0 ~ 512.0
+	renderDistance = 128.0
+	#When you die, follow your own ragdoll with the camera.
+	#Default: true
+	enableDeathCamera = true
+	#Draw worn armor on ragdolls. Off leaves the bare body and costs nothing to draw.
+	#Default: true
+	renderArmor = true
+	#Draw GeckoLib animated armor on ragdolls. It is the most expensive armor to draw,
+	#and off it is left out rather than swapped for a plain one. Needs renderArmor on.
+	#Default: true
+	renderGeckolibArmor = true
+	#Draw Curios accessories on ragdolls, like backpacks and rings. Independent of renderArmor.
+	#Default: true
+	renderCurios = true
+	#Draw a player's cape on their ragdoll, hanging off the back. Left off when an elytra is worn.
+	#Default: true
+	renderCapes = true
+	#Fade a ragdoll out over the end of its lifetime instead of removing it at once.
+	#Default: true
+	fadeOutRagdolls = true
+	#How long a fading ragdoll takes to disappear, in ticks (20 is one second).
+	#Default: 30
+	#Range: 1 ~ 200
+	fadeOutTicks = 30
+	#Distance in blocks within which GeckoLib animated armor renders on ragdolls.
+	#Lower improves performance. Should not exceed renderDistance.
+	#Default: 80.0
+	#Range: 4.0 ~ 128.0
+	geckolibArmorRenderDistance = 80.0
+	#Distance in blocks within which vanilla armor renders on ragdolls.
+	#Default: 100.0
+	#Range: 4.0 ~ 512.0
+	armorRenderDistance = 100.0
+	#Armor drawn on a ragdoll in place of modded armor whose texture can't be found.
+	#Leave empty to draw no armor there. Otherwise an equipment asset name: leather, chainmail,
+	#iron, gold, diamond, netherite, or modid:name for a modded one.
+	#Default: ""
+	missingArmorFallback = ""
+
+#Physics Engine
+[physics]
+	#Physics engine for ragdolls: jolt (default, native and fast) or jbullet (pure Java, slower).
+	#Jolt falls back to jbullet automatically if it can't load. Applies on the next world load.
+	#Default: "jolt"
+	physicsEngine = "jolt"
+	#Extra worker threads Jolt may use for physics. 0 = pick automatically from CPU count.
+	#Ignored by jbullet.
+	#Default: 0
+	#Range: 0 ~ 16
+	physicsSolverThreads = 0
+
+#Debug Options
+[debug]
+	#Render debug boxes around ragdoll physics bodies.
+	#Default: true
+	debugRenderPhysics = true
+	#Periodically log ragdoll physics performance stats ([Ragdoll Perf]) to the client log.
+	#Useful for profiling; leave off for normal play.
+	#Default: false
+	logPhysicsPerf = false

@@ -1,0 +1,6 @@
+{
+  "cache": {
+    "directory": "phonon_cache",
+    "maxSizeMB": 512
+  }
+}

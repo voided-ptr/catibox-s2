@@ -1,0 +1,38 @@
+{
+  // How this client draws Soundstage's speakers. Affects nothing else.
+  appearance: {
+    // How readily a speaker cone reaches its full travel.
+    // 1.0 moves the cones by exactly the signal the speaker is playing. Higher values
+    // make ordinary music read on the smaller drivers, whose travel is otherwise a
+    // fraction of a pixel; lower values calm them down. The mechanical limit does not
+    // change: a cone still stops where the cabinet's recess and the driver's own
+    // suspension say it does, so this cannot push one through its grille.
+    // Accepts a number from 0.25 to 8. Default: 1.
+    driverExcursionGain: 1.0d,
+    // Show a toast naming the track when playback changes on a receiver nearby.
+    // Turning it off means no announcement of a track change.
+    // Accepts true or false. Default: true.
+    trackChangeToast: true,
+    // Show the track's cover art on that toast, and on a display's now-playing card.
+    // Fetching it means this client connects to whoever hosts the image, which is a
+    // separate decision from whether to show the toast at all. With this off the
+    // toast and the card still name the track and nothing is downloaded.
+    // Accepts true or false. Default: true.
+    trackChangeToastArtwork: true,
+    // Show a screen's subtitle captions, when the video playing on it has any.
+    // Off draws no captions; nothing else about the screen's picture changes.
+    // Accepts true or false. Default: true.
+    showSubtitles: false,
+    // How large a screen draws its subtitle captions: SMALL, MEDIUM or LARGE.
+    // Set from the display menu; there is rarely a reason to edit it here.
+    // Accepts one of ["small", "medium", "large"]. Default: medium.
+    subtitleSize: "large"
+  },
+  // Sharing this computer's audio through a receiver.
+  sharing: {
+    // The input device to share from, as the share screen lists it. Empty for the
+    // system's default input. Set from that screen; there is rarely a reason to edit it here.
+    // Accepts text. Default: "".
+    shareDevice: ""
+  }
+}
