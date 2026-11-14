@@ -70,7 +70,7 @@
       "modifier": "NONE"
     },
     "key.converse.toggle_chat": {
-      "key": "key.keyboard.period",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.cookiefpsinspector.open": {
@@ -286,7 +286,7 @@
       "modifier": "NONE"
     },
     "key.hide_icons": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.h",
       "modifier": "NONE"
     },
     "key.hotbar.1": {
@@ -658,7 +658,7 @@
       "modifier": "NONE"
     },
     "key.optigui.inspect": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.f12",
       "modifier": "NONE"
     },
     "key.pickItem": {
@@ -990,7 +990,7 @@
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.toggleCameraMode": {
-      "key": "key.keyboard.f12",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.togglePerspective": {
