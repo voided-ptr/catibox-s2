@@ -9,6 +9,23 @@
     // suspension say it does, so this cannot push one through its grille.
     // Accepts a number from 0.25 to 8. Default: 1.
     driverExcursionGain: 1.0d,
+    // Smooth away cone motion faster than this screen's frame rate can show.
+    // Off draws each cone exactly where it is at every frame.
+    // Accepts true or false. Default: true.
+    smoothUnshownMotion: true,
+    // Draw a featured station's look on displays as a live page that shows where you point,
+    // instead of the painted card.
+    // Accepts true or false. Default: true.
+    stationPage: true,
+    // The name your votes on a featured station's screens carry, sent from this game with each vote.
+    // Empty until your first vote asks for it. A server that votes for its players uses your account
+    // name and its own name instead. Set from the station's settings on its screen.
+    // Accepts text. Default: "".
+    stationVoteName: "",
+    // Colour a featured station's look from the cover art, as its app does. Off keeps the station's
+    // own colours.
+    // Accepts true or false. Default: true.
+    stationMatchArtwork: true,
     // Show a toast naming the track when playback changes on a receiver nearby.
     // Turning it off means no announcement of a track change.
     // Accepts true or false. Default: true.
@@ -22,17 +39,105 @@
     // Show a screen's subtitle captions, when the video playing on it has any.
     // Off draws no captions; nothing else about the screen's picture changes.
     // Accepts true or false. Default: true.
-    showSubtitles: false,
-    // How large a screen draws its subtitle captions: SMALL, MEDIUM or LARGE.
-    // Set from the display menu; there is rarely a reason to edit it here.
-    // Accepts one of ["small", "medium", "large"]. Default: medium.
-    subtitleSize: "large"
-  },
-  // Sharing this computer's audio through a receiver.
-  sharing: {
-    // The input device to share from, as the share screen lists it. Empty for the
-    // system's default input. Set from that screen; there is rarely a reason to edit it here.
+    showSubtitles: true,
+    // The face captions are drawn in: noto_sans, atkinson_hyperlegible, noto_serif, noto_sans_mono.
+    // Every caption setting is set from the Caption style page; there is rarely a reason to edit them here.
+    // Accepts one of ["noto_sans", "atkinson_hyperlegible", "noto_serif", "noto_sans_mono"]. Default: "noto_sans".
+    captionFont: "noto_sans",
+    // How large captions are, in percent: 100 is the size they have always had.
+    // Accepts a whole number from 50 to 300. Default: 100.
+    captionSize: 140,
+    // The colour of a caption's text, as #RRGGBB.
+    // Accepts text. Default: "#FFFFFF".
+    captionTextColour: "#FFFFFF",
+    // How solid a caption's text is, in percent.
+    // Accepts a whole number from 25 to 100. Default: 100.
+    captionTextOpacity: 100,
+    // What edges the letters: NONE, OUTLINE, SHADOW, RAISED or DEPRESSED.
+    // Accepts one of ["none", "outline", "shadow", "raised", "depressed"]. Default: none.
+    captionEdge: "none",
+    // The colour of the box behind each line, as #RRGGBB.
+    // Accepts text. Default: "#000000".
+    captionBoxColour: "#000000",
+    // How solid the box behind each line is, in percent; 0 draws none.
+    // Accepts a whole number from 0 to 100. Default: 75.
+    captionBoxOpacity: 75,
+    // The colour of the window behind the whole caption, as #RRGGBB.
+    // Accepts text. Default: "#000000".
+    captionWindowColour: "#000000",
+    // How solid the window behind the whole caption is, in percent; 0 draws none.
+    // Accepts a whole number from 0 to 100. Default: 0.
+    captionWindowOpacity: 0,
+    // Where a caption stands: FOOT of the display, INSIDE the picture, or the TOP.
+    // Accepts one of ["foot", "inside", "top"]. Default: foot.
+    captionPosition: "foot",
+    // The most lines a caption shows; a longer one shows its last lines.
+    // Accepts a whole number from 1 to 3. Default: 3.
+    captionLines: 3,
+    // Sound descriptions such as [door creaks]: SHOW, DIM or HIDE them.
+    // Accepts one of ["show", "dim", "hide"]. Default: show.
+    captionSoundTags: "show",
+    // Fade captions in and out rather than switching them.
+    // Accepts true or false. Default: false.
+    captionFade: false,
+    // What a display shows while it plays without a picture: card, the plain now-playing card; random, a
+    // new scene on each display every 3 minutes; random_track, a new scene on each track (every 3
+    // minutes on a track with no end); or a scene an installed visualizer add-on offers, by its name
+    // (such as visualizers:halo). Set from the display menu.
+    // Accepts text. Default: "card".
+    cardStyle: "card",
+    // The language subtitles are chosen in when a track is on Auto: empty for the game's own language,
+    // or a game language code such as es_es. Set from the display menu.
     // Accepts text. Default: "".
+    subtitleLanguage: ""
+  },
+  // How this computer turns the video it is sent into pictures. The first one that is on and works is used.
+  backends: {
+    // The backends in the order they are tried. One that is not listed is off.
+    // system is the ffmpeg found on the PATH, provided the ffmpeg program named by path below or the one
+    // Soundstage downloaded, fast the downloaded video libraries, and java Soundstage's own decoder.
+    // Accepts a list of text. Default: ["system", "provided", "fast", "java"].
+    order: [
+      "system",
+      "provided",
+      "fast",
+      "java"
+    ],
+    system: {
+      // Use the ffmpeg found on the PATH when it checks out.
+      // Accepts true or false. Default: true.
+      enabled: true,
+      // Let it use the graphics card. It falls back to the processor when the card cannot.
+      // Accepts true or false. Default: true.
+      gpu: true
+    },
+    provided: {
+      // Use the ffmpeg program named by path when it checks out.
+      // Accepts true or false. Default: true.
+      enabled: true,
+      // Let it use the graphics card. It falls back to the processor when the card cannot.
+      // Accepts true or false. Default: true.
+      gpu: true,
+      // The ffmpeg program to use for provided, a full path. Empty uses the one Soundstage downloaded,
+      // when there is one.
+      // Accepts text. Default: "".
+      path: ""
+    },
+    fast: {
+      // Use the downloaded video libraries when it checks out.
+      // Accepts true or false. Default: true.
+      enabled: true,
+      // Let it use the graphics card. It falls back to the processor when the card cannot.
+      // Accepts true or false. Default: true.
+      gpu: true
+    },
+    java: {
+      // Decode with Soundstage's own decoder, which needs nothing installed.
+      // Accepts true or false. Default: false.
+      enabled: false
+    }
+  },
+  sharing: {
     shareDevice: ""
   }
 }

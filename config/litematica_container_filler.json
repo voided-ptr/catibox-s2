@@ -1,0 +1,224 @@
+{
+  "Features": {
+    "litematica_container_filler.config.name.enableMod": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.workingState": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.fillRadius": 5,
+    "litematica_container_filler.config.name.fillDelay": 0,
+    "litematica_container_filler.config.name.enableSafetyDelay": true,
+    "litematica_container_filler.config.name.enableFillStateProtection": true,
+    "litematica_container_filler.config.name.carpetLargeBarrelMode": "off",
+    "litematica_container_filler.config.name.materialReplacements": [],
+    "litematica_container_filler.config.name.enableDataSync": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.enableOpNbtQuery": false,
+    "litematica_container_filler.config.name.realContainerCacheSize": 8192,
+    "litematica_container_filler.config.name.rateLimitClickPackets": false,
+    "litematica_container_filler.config.name.clickPacketRateLimit": 4,
+    "litematica_container_filler.config.name.creativeFill": true,
+    "litematica_container_filler.config.name.enableQsExtraction": true,
+    "litematica_container_filler.config.name.quickShulkerOpenMode": "invoke",
+    "litematica_container_filler.config.name.matchShulkerBoxesByContent": false,
+    "litematica_container_filler.config.name.storeOrderly": true,
+    "litematica_container_filler.config.name.dropExtractedItems": false,
+    "litematica_container_filler.config.name.dropItemsFromEmptySchematicContainers": false,
+    "litematica_container_filler.config.name.hideProjectionFillGui": true,
+    "litematica_container_filler.config.name.containerFilterMode": "disabled",
+    "litematica_container_filler.config.name.containerFilterScope": "both",
+    "litematica_container_filler.config.name.containerFilterList": [
+      "minecraft:chest",
+      "minecraft:barrel",
+      "minecraft:trapped_chest",
+      "minecraft:shulker_box",
+      "minecraft:*_shulker_box",
+      "minecraft:crafter",
+      "minecraft:hopper",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:furnace",
+      "minecraft:blast_furnace",
+      "minecraft:smoker",
+      "minecraft:brewing_stand"
+    ],
+    "litematica_container_filler.config.name.toolEnabled": false,
+    "litematica_container_filler.config.name.containerToolMode": "clear",
+    "litematica_container_filler.config.name.enableSyncToolQsExtraction": true,
+    "litematica_container_filler.config.name.enableToolHoldRepeat": false,
+    "litematica_container_filler.config.name.toolRepeatSameContainerCooldown": 20,
+    "litematica_container_filler.config.name.toolFillFullThreshold": 2,
+    "litematica_container_filler.config.name.collectMaterialListItemsRetain": false,
+    "litematica_container_filler.config.name.collectMaterialListItemsRetainAmount": 1,
+    "litematica_container_filler.config.name.collectMaterialListItemsCloseGui": true,
+    "litematica_container_filler.config.name.containerClearOutputMode": "drop",
+    "litematica_container_filler.config.name.hideToolGui": true,
+    "litematica_container_filler.config.name.enableToolHud": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.toolHudBorder": false,
+    "litematica_container_filler.config.name.toolHudStyle": "fixed_card",
+    "litematica_container_filler.config.name.toolHudOpacity": 0.52,
+    "litematica_container_filler.config.name.toolHudSmoothing": 0.22,
+    "litematica_container_filler.config.name.toolHudOffset": 34,
+    "litematica_container_filler.config.name.toolHudScale": 80,
+    "litematica_container_filler.config.name.toolHudIconScale": 62,
+    "litematica_container_filler.config.name.toolHudCustomX": 100,
+    "litematica_container_filler.config.name.toolHudCustomY": -110,
+    "litematica_container_filler.config.name.toolHudFrameRate": 30,
+    "litematica_container_filler.config.name.highlightContainers": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.highlightXray": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderRadius": 0,
+    "litematica_container_filler.config.name.syncLiteLayer": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.highlightEmptySchematicContainers": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderStateUnfilled": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderStatePartial": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderStateOverfilled": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderStateWrong": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderStateSatisfied": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderStateUnknown": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.highlightUnplacedContainers": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderStateGlass": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderStateTopPlate": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderFillingArrow": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderQueuedSpinner": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.renderMissingMaterialMarker": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "litematica_container_filler.config.name.highlightScanBudget": 256,
+    "litematica_container_filler.config.name.maxQueuedRenderOverlays": 20,
+    "litematica_container_filler.config.name.taskOverlayLingerTicks": 40,
+    "litematica_container_filler.config.name.highlightGlassAlphaMultiplier": 0.24,
+    "litematica_container_filler.config.name.highlightTopPlateSize": 0.64,
+    "litematica_container_filler.config.name.taskOverlayScale": 1.0,
+    "litematica_container_filler.config.name.taskMarkerAnimationFps": 30,
+    "litematica_container_filler.config.name.highlightColorUnfilled": "#806E5CFF",
+    "litematica_container_filler.config.name.highlightColorPartial": "#80FFB02E",
+    "litematica_container_filler.config.name.highlightColorOverfilled": "#80FF3EA5",
+    "litematica_container_filler.config.name.highlightColorWrong": "#80FF5A45",
+    "litematica_container_filler.config.name.highlightColorSatisfied": "#8044FFB2",
+    "litematica_container_filler.config.name.highlightColorUnknown": "#80B66DFF",
+    "litematica_container_filler.config.name.highlightColorUnplaced": "#8097A6C7",
+    "litematica_container_filler.config.name.highlightColorFilling": "#D00DFFF2",
+    "litematica_container_filler.config.name.highlightColorQueued": "#C0FFB02E",
+    "litematica_container_filler.config.name.highlightColorMissingMaterial": "#D0FF385C"
+  },
+  "Hotkeys": {
+    "litematica_container_filler.hotkey.name.openConfigGui": {
+      "keys": "L,C"
+    },
+    "litematica_container_filler.hotkey.name.fillContainer": {
+      "keys": "V"
+    },
+    "litematica_container_filler.hotkey.name.toolTrigger": {
+      "keys": ""
+    },
+    "litematica_container_filler.hotkey.name.toolSwitchMode": {
+      "keys": ""
+    },
+    "litematica_container_filler.hotkey.name.toolSwitchPrevious": {
+      "keys": ""
+    },
+    "litematica_container_filler.hotkey.name.toolCloseAll": {
+      "keys": ""
+    },
+    "litematica_container_filler.hotkey.name.cycleManualOverride": {
+      "keys": ""
+    },
+    "litematica_container_filler.hotkey.name.clearManualOverrides": {
+      "keys": ""
+    }
+  }
+}

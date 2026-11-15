@@ -32,7 +32,9 @@
   "hitsToKill": false,
   "petAlert": true,
   "petAlertPercent": 25,
-  "hidden": [],
+  "hidden": [
+    "notchcurrency:notch_npc"
+  ],
   "sizes": {},
   "heights": {}
 }

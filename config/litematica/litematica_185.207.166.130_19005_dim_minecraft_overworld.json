@@ -17,21 +17,21 @@
     "hotkey_range_max": false
   },
   "area_simple": {
-    "name": "Unnamed",
-    "current": "Unnamed",
+    "name": "Spawn Truthnuke",
+    "current": "Spawn Truthnuke",
     "boxes": [
       {
         "pos1": [
-          0,
-          0,
-          0
+          -787,
+          255,
+          570
         ],
         "pos2": [
-          0,
-          0,
-          0
+          -999,
+          320,
+          885
         ],
-        "name": "Unnamed"
+        "name": "Spawn Truthnuke"
       }
     ]
   },

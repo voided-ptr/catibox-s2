@@ -980,6 +980,226 @@
       "enabled": false,
       "speed": 1.0,
       "range": 40.0
+    },
+    "alexscaves:teletor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:magnetron": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:boundroid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:boundroid_winch": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:ferrouslime": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:notor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:subterranodon": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:vallumraptor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:grottoceratops": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:trilocaris": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:tremorsaurus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:relicheirus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:luxtructosaurus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:atlatitan": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:nucleeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:radgill": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:brainiac": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:gammaroach": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:raycat": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:tremorzilla": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:lanternfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:sea_pig": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:hullbreaker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:gossamer_worm": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:tripodfish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:deep_one": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:deep_one_knight": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:deep_one_mage": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:mine_guardian": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:gloomoth": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:underzealot": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:watcher": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:corrodent": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:vesper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:forsaken": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:sweetish_fish": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:caniac": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:gumbeeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:candicorn": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:gum_worm": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:caramel_cube": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:gummy_bear": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 40.0
+    },
+    "alexscaves:licowitch": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
+    },
+    "alexscaves:gingerbread_man": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0
     }
   }
 }

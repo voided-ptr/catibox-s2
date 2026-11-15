@@ -29,7 +29,9 @@
     "activeConfigIndex": 0,
     "displacementSmoothFactor": 0.4,
     "rotationSmoothFactor": 0.4,
-    "disableMainFeatureItems": [],
+    "disableMainFeatureItems": [
+      ""
+    ],
     "disableRenderItems": [
       "minecraft:filled_map"
     ],

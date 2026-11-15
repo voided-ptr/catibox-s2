@@ -1,12 +1,12 @@
 {
-	"allowToggleHotkey": true,
+	"allowToggleHotkey": false,
 	"notifyOnToggle": true,
 	"showChatWhileTyping": true,
 	"chatHistoryLimit": 100,
 	"enableMentions": false,
 	"mentionColour": 5406706,
-	"enableCompactStacking": true,
-	"persistentHistory": false,
+	"enableCompactStacking": false,
+	"persistentHistory": true,
 	"persistentHistoryMegabytes": 16,
 	"persistentHistoryDays": 14,
 	"compactStackLimit": 999

@@ -31,7 +31,25 @@
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:gum_worm": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:licowitch": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "alexsmobs:void_worm": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:brainiac": {
       "enabled": false,
       "speed": 1.0,
       "range": 60.0,
@@ -74,6 +92,12 @@
       "threshold": -20.0
     },
     "betternether:skull": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:ferrouslime": {
       "enabled": false,
       "speed": 1.0,
       "range": 60.0,
@@ -145,6 +169,30 @@
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:deep_one_mage": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:gingerbread_man": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:underzealot": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:gumbeeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "minecraft:husk": {
       "enabled": false,
       "speed": 1.0,
@@ -193,7 +241,25 @@
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:corrodent": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "betternether:jungle_skeleton": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:boundroid_winch": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:deep_one_knight": {
       "enabled": false,
       "speed": 1.0,
       "range": 60.0,
@@ -217,6 +283,12 @@
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:luxtructosaurus": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "minecraft:parched": {
       "enabled": false,
       "speed": 1.0,
@@ -235,13 +307,31 @@
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:magnetron": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "alexsmobs:dropbear": {
       "enabled": false,
       "speed": 1.0,
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:forsaken": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "minecraft:ravager": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:mine_guardian": {
       "enabled": false,
       "speed": 1.0,
       "range": 60.0,
@@ -259,6 +349,24 @@
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:boundroid": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:deep_one": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:caniac": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "minecraft:ghast": {
       "enabled": false,
       "speed": 1.0,
@@ -266,6 +374,12 @@
       "threshold": -20.0
     },
     "alexsmobs:murmur_head": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:caramel_cube": {
       "enabled": false,
       "speed": 1.0,
       "range": 60.0,
@@ -349,13 +463,37 @@
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:teletor": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "alexsmobs:straddler": {
       "enabled": false,
       "speed": 1.0,
       "range": 60.0,
       "threshold": -20.0
     },
+    "alexscaves:watcher": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
     "minecraft:shulker": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:nucleeper": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 60.0,
+      "threshold": -20.0
+    },
+    "alexscaves:vesper": {
       "enabled": false,
       "speed": 1.0,
       "range": 60.0,
@@ -466,6 +604,12 @@
       "threshold": -20.0
     },
     "alexsmobs:flutter": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexscaves:notor": {
       "enabled": false,
       "speed": 1.0,
       "range": 50.0,
@@ -736,6 +880,12 @@
       "threshold": -20.0
     },
     "alexsmobs:bison": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexscaves:hullbreaker": {
       "enabled": false,
       "speed": 1.0,
       "range": 50.0,
@@ -1041,6 +1191,12 @@
       "range": 50.0,
       "threshold": -20.0
     },
+    "alexscaves:gloomoth": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
     "minecraft:ocelot": {
       "enabled": false,
       "speed": 1.0,
@@ -1048,6 +1204,12 @@
       "threshold": -20.0
     },
     "alexsmobs:warped_toad": {
+      "enabled": false,
+      "speed": 1.0,
+      "range": 50.0,
+      "threshold": -20.0
+    },
+    "alexscaves:gammaroach": {
       "enabled": false,
       "speed": 1.0,
       "range": 50.0,

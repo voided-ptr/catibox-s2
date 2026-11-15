@@ -1,6 +1,6 @@
 {
   "totalPatsCounter": {
-    "pats": 380
+    "pats": 394
   },
   "entities": {
     "alexsmobs:emu": {
@@ -55,7 +55,7 @@
       "pats": 2
     },
     "notchcurrency:notch_npc": {
-      "pats": 64
+      "pats": 76
     },
     "antarchy:scorpion": {
       "pats": 18
@@ -68,6 +68,9 @@
     },
     "minecraft:zombie": {
       "pats": 11
+    },
+    "snuffles:snuffle": {
+      "pats": 1
     },
     "minecraft:wolf": {
       "pats": 7

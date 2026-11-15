@@ -231,7 +231,7 @@
     },
     "key.effortlessbuilding.redo.desc": {
       "key": "key.keyboard.y",
-      "modifier": "SHIFT"
+      "modifier": "CONTROL"
     },
     "key.effortlessbuilding.undo.desc": {
       "key": "key.keyboard.z",
@@ -658,7 +658,7 @@
       "modifier": "NONE"
     },
     "key.optigui.inspect": {
-      "key": "key.keyboard.f12",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.pickItem": {
@@ -913,6 +913,14 @@
       "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
+    "key.treeliable.cycle_sneak_behavior": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.treeliable.toggle_chopping": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
     "key.use": {
       "key": "key.mouse.right",
       "modifier": "NONE"
@@ -994,8 +1002,8 @@
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.togglePerspective": {
-      "key": "key.keyboard.f6",
-      "modifier": "SHIFT"
+      "key": "key.keyboard.f12",
+      "modifier": "NONE"
     },
     "key.zarith.shift_down": {
       "key": "key.keyboard.v",

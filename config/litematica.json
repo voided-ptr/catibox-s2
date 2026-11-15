@@ -90,7 +90,7 @@
     "schematicVcsDeleteMode": "matching_block",
     "selectionCornersMode": "corners",
     "commandFillMaxVolume": 32768,
-    "commandLimitPerTick": 8,
+    "commandLimitPerTick": 64,
     "commandNameClone": "clone",
     "commandNameFill": "fill",
     "commandNameSetblock": "setblock",

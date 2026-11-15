@@ -56,36 +56,19 @@
     // deliberately streaming from another machine on the same LAN.
     // Accepts true or false. Default: false.
     allowPrivateNetworkHosts: false,
-    // Allow players to share audio from their own computer through a receiver: an input
-    // device on their machine, such as a virtual audio cable an app plays into. A share
-    // is refused by a receiver's lock and counts toward maxPlayingReceivers like any track.
-    // Accepts true or false. Default: true.
-    enableLiveInput: true,
     // Allow media:<name> to play a file from the soundstage-media folder in the server's
     // directory (in singleplayer, the game directory). A player names a file directly in
     // that folder and nothing else: no paths, no subfolders, no hidden files.
     // Accepts true or false. Default: true.
     enableMediaFolder: true
   },
-  // How the server makes video for screens.
+  // How the server makes video for screens. The programs and libraries it makes pictures with
+  // are under backends.
   video: {
     // Whether screens show video. On by default. Off, a display shows what is playing
     // instead of a picture; the sound is the same either way.
     // Accepts true or false. Default: true.
     enableVideo: true,
-    // The ffmpeg program: a name on the PATH, or a full path. ffprobe is looked for beside it,
-    // then on the PATH. Optional: without it, media files play with sound only.
-    // Accepts text. Default: "ffmpeg".
-    ffmpegPath: "ffmpeg",
-    // Let Soundstage download ffmpeg when this server has none: a GPL build from
-    // github.com/BtbN/FFmpeg-Builds (tens of megabytes), checked against the SHA-256
-    // this version of Soundstage carries, test-run, and kept in the soundstage-ffmpeg
-    // folder in the server's directory. It is only used while ffmpegPath is "ffmpeg"
-    // and no ffmpeg runs from the PATH. Linux (x64, arm64, glibc) and Windows (x64,
-    // arm64); not macOS. OFF by default: turning it on means this server downloads and
-    // runs a program from the internet.
-    // Accepts true or false. Default: false.
-    downloadFfmpeg: false,
     // Largest picture sent to screens, as the height of a 16:9 picture; a wider or
     // narrower one may have as many pixels. Every client decodes it on its own processor,
     // so larger costs every viewer more.
@@ -96,16 +79,66 @@
     // show what is playing until its picture can start.
     // Accepts a whole number from 0 to 1024. Default: 0.
     maxPicturesEncoding: 0,
-    // How long a PNG or JPEG shows on displays before the receiver moves on, when
-    // something is queued after it; a queue of images on loop is a slideshow. An image
-    // alone in the queue stays until it is skipped, stopped or replaced.
-    // Accepts a whole number from 1 to 86400. Default: 10.
-    imageDisplaySeconds: 10
+    // The most a picture may send each player, in kilobits a second. 0, the default, sets
+    // none. A source with several versions (a YouTube format, a Twitch quality, a library's
+    // own smaller stream) sends a smaller one; a file with one version is converted to fit.
+    // The server's processor converts pictures of 1080 lines or fewer only; a larger one
+    // needs its graphics card, or plays with sound only and the displays say why.
+    // Accepts a whole number from 0 to 100000. Default: 0.
+    maxPlayerKbps: 0,
+    // The most every picture together may send from this server, in kilobits a second, for
+    // every receiver and every player. 0, the default, sets none. Set it below your upload
+    // speed, leaving room for the game itself: sound is never counted or held back. Pictures
+    // that would go over are sent in a smaller version or converted to fit, as maxPlayerKbps
+    // does; where neither can be done, the displays say the server can't keep up.
+    // Accepts a whole number from 0 to 10000000. Default: 0.
+    maxUploadKbps: 0
   },
-  // Regex filters applied to the requested URL before it is resolved.
+  // How this server turns video into pictures for screens. The first one that is on and works is used.
+  backends: {
+    // The backends in the order they are tried. One that is not listed is off.
+    // system is the ffmpeg found on the PATH, provided the ffmpeg program named by path below or the one
+    // Soundstage downloaded, fast the downloaded video libraries.
+    // Accepts a list of text. Default: ["system", "provided", "fast"].
+    order: [
+      "system",
+      "provided",
+      "fast"
+    ],
+    system: {
+      // Use the ffmpeg found on the PATH when it checks out.
+      // Accepts true or false. Default: true.
+      enabled: true,
+      // Let it use the graphics card. It falls back to the processor when the card cannot.
+      // Accepts true or false. Default: true.
+      gpu: true
+    },
+    provided: {
+      // Use the ffmpeg program named by path when it checks out.
+      // Accepts true or false. Default: true.
+      enabled: true,
+      // Let it use the graphics card. It falls back to the processor when the card cannot.
+      // Accepts true or false. Default: true.
+      gpu: true,
+      // The ffmpeg program to use for provided, a full path. Empty uses the one Soundstage downloaded,
+      // when there is one.
+      // Accepts text. Default: "".
+      path: ""
+    },
+    fast: {
+      // Use the downloaded video libraries when it checks out.
+      // Accepts true or false. Default: true.
+      enabled: true,
+      // Let it use the graphics card. It falls back to the processor when the card cannot.
+      // Accepts true or false. Default: true.
+      gpu: true
+    }
+  },
+  // Regex filters applied to the links players ask to play, before they are resolved.
   // If allow is non-empty a URL must match at least one entry to be accepted, and deny
   // is not consulted. If allow is empty, any URL is accepted unless it matches deny.
-  // Patterns are matched against the whole URL, case-insensitively.
+  // Patterns are matched against the whole URL, case-insensitively. An address an operator
+  // types in game for an add-on, such as a media library's, is not filtered.
   filters: {
     // Example: ["^https://(www\\.)?youtube\\.com/.*"]
     // Accepts a list of text. Default: [].
@@ -131,5 +164,18 @@
     // its source. A player asked to start one beyond this is told to stop another first.
     // Accepts a whole number from 0 to 1024. Default: 16.
     maxPlayingReceivers: 16
+  },
+  // Votes on a featured station's screens. Left empty, each player's own game sends their
+  // votes to the station under the name they chose, and this server sends nothing.
+  stations: {
+    // A Hive365 API key, given by Hive365 to servers that name their players with the server's
+    // name. With it and serverName set, this server sends its players' votes itself, each under
+    // the player's account name and the server's name. Kept on this server only.
+    // Accepts text. Default: "".
+    hive365Key: "",
+    // The name this server's players' votes carry, such as "Example SMP": letters, digits,
+    // spaces and punctuation, at most 32 characters. Used only with hive365Key.
+    // Accepts text. Default: "".
+    serverName: ""
   }
 }
