@@ -21,7 +21,7 @@ gamma:0.5
 guiScale:3
 maxAnisotropyBit:2
 textureFiltering:2
-maxFps:260
+maxFps:60
 improvedTransparency:false
 inactivityFpsLimit:"afk"
 mipmapLevels:4
@@ -30,7 +30,7 @@ particles:1
 reducedDebugInfo:false
 renderClouds:"fast"
 cloudRange:32
-renderDistance:2
+renderDistance:8
 simulationDistance:5
 screenEffectScale:1.0
 soundDevice:"OpenAL Soft on Speakers (SMSL USB DAC)"
@@ -291,19 +291,19 @@ key_key.presencefootsteps.toggle:key.keyboard.unknown
 key_key.presencefootsteps.debug_toggle:key.keyboard.z
 key_key.ragdollifiedpr.charge_aed:key.keyboard.r
 key_key.ragdollifiedreactions.toggle:key.keyboard.x
-key_key.xtracr_realcamera.adjustDOWN:key.keyboard.unknown
-key_key.xtracr_realcamera.adjustBACK:key.keyboard.unknown
-key_key.xtracr_realcamera.adjustFRONT:key.keyboard.unknown
-key_key.xtracr_realcamera.adjustLEFT:key.keyboard.unknown
-key_key.xtracr_realcamera.activeConfigIndexRESET:key.keyboard.unknown
-key_key.xtracr_realcamera.adjustRIGHT:key.keyboard.unknown
-key_key.xtracr_realcamera.adjustUP:key.keyboard.unknown
-key_key.xtracr_realcamera.togglePerspective:key.keyboard.f12
-key_key.xtracr_realcamera.toggleAdjustMode:key.keyboard.unknown
-key_key.xtracr_realcamera.toggleCameraMode:key.keyboard.unknown
 key_key.xtracr_realcamera.activeConfigIndexPREV:key.keyboard.unknown
 key_key.xtracr_realcamera.modelViewScreen:key.keyboard.unknown
+key_key.xtracr_realcamera.toggleCameraMode:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustUP:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustRIGHT:key.keyboard.unknown
+key_key.xtracr_realcamera.toggleAdjustMode:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustFRONT:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustBACK:key.keyboard.unknown
 key_key.xtracr_realcamera.activeConfigIndexNEXT:key.keyboard.unknown
+key_key.xtracr_realcamera.togglePerspective:key.keyboard.f12
+key_key.xtracr_realcamera.adjustDOWN:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustLEFT:key.keyboard.unknown
+key_key.xtracr_realcamera.activeConfigIndexRESET:key.keyboard.unknown
 key_key.reliable_remover.rrv_delete:key.keyboard.delete
 key_key.reliable_remover.jei_delete:key.keyboard.delete
 key_keybindings.spell_engine.tooltip_details:key.keyboard.unknown
