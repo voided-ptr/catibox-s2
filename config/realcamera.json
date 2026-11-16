@@ -1,8 +1,8 @@
 {
   "classic": {
     "adjustMode": "CAMERA",
-    "disableWhenSneaking": true,
-    "disableWhenSwimming": true,
+    "disableWhenSneaking": false,
+    "disableWhenSwimming": false,
     "outTick": 13,
     "scale": 8.0,
     "cameraX": -0.5,
@@ -16,7 +16,7 @@
     "roll": 0.0
   },
   "binding": {
-    "screenModifierKey": "key.keyboard.left.alt",
+    "screenModifierKey": "key.keyboard.end",
     "legacyMode": false,
     "adjustOffset": true,
     "hideFailureMessage": true,
@@ -29,16 +29,14 @@
     "activeConfigIndex": 0,
     "displacementSmoothFactor": 0.4,
     "rotationSmoothFactor": 0.4,
-    "disableMainFeatureItems": [
-      ""
-    ],
+    "disableMainFeatureItems": [],
     "disableRenderItems": [
       "minecraft:filled_map"
     ],
     "fixedTargetList": [
       {
         "name": "LEGACY_MODE",
-        "textureId": "",
+        "textureId": "minecraft:textures/entity/player/.",
         "priority": 0,
         "disablingDepth": 0.2,
         "targetConfig": {
@@ -50,9 +48,9 @@
           "posV": 0.0
         },
         "bindConfig": {
-          "bindX": false,
+          "bindX": true,
           "bindY": true,
-          "bindZ": false,
+          "bindZ": true,
           "bindRotation": false
         },
         "offsets": {
@@ -132,15 +130,15 @@
           "posV": 0.2
         },
         "bindConfig": {
-          "bindX": false,
+          "bindX": true,
           "bindY": true,
-          "bindZ": false,
+          "bindZ": true,
           "bindRotation": false
         },
         "offsets": {
           "scale": 1.0,
-          "x": -0.1,
-          "y": 0.0,
+          "x": -0.25,
+          "y": 0.05,
           "z": 0.0,
           "pitch": 0.0,
           "yaw": 0.0,

@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "cemEnabled": false,
+  "cemEnabled": true,
   "faceOverlay": true,
   "externalAnimations": true,
   "capePhysics": true,

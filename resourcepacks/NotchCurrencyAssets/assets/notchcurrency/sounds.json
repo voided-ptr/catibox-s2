@@ -1,4 +1,8 @@
 {
+  "heyguys": {
+    "category": "neutral",
+    "sounds": ["notchcurrency:heyguys"]
+  },
   "raly": {
     "category": "neutral",
     "sounds": ["notchcurrency:raly"]

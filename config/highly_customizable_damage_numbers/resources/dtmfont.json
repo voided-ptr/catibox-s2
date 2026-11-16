@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "highly_customizable_damage_numbers:textures/font/dtmfont.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "1234567890"
+      ]
+    }
+  ]
+}

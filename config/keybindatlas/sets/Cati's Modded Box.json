@@ -277,6 +277,10 @@
       "key": "key.keyboard.f11",
       "modifier": "NONE"
     },
+    "key.handycam.toggle_effects": {
+      "key": "key.keyboard.f10",
+      "modifier": "NONE"
+    },
     "key.heartline.hide": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE"
@@ -721,6 +725,34 @@
       "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
+    "key.punchy.inspect": {
+      "key": "key.keyboard.i",
+      "modifier": "NONE"
+    },
+    "key.punchy.open_main_menu": {
+      "key": "key.keyboard.f8",
+      "modifier": "NONE"
+    },
+    "key.punchy.triggerable.punchy_sword_inspect_old": {
+      "key": "key.keyboard.j",
+      "modifier": "NONE"
+    },
+    "key.punchy.triggerable.punchy_sword_inspect_rework": {
+      "key": "key.keyboard.g",
+      "modifier": "NONE"
+    },
+    "key.punchy_puppies.call_all": {
+      "key": "key.keyboard.y",
+      "modifier": "NONE"
+    },
+    "key.punchy_puppies.throw": {
+      "key": "key.keyboard.k",
+      "modifier": "NONE"
+    },
+    "key.punchy_puppies.whistle_nearest": {
+      "key": "key.keyboard.u",
+      "modifier": "NONE"
+    },
     "key.push_to_talk": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE"
@@ -748,6 +780,14 @@
     "key.reachcrafting.toggle_craftable_filter": {
       "key": "key.keyboard.space",
       "modifier": "ALT"
+    },
+    "key.reliable_remover.jei_delete": {
+      "key": "key.keyboard.delete",
+      "modifier": "NONE"
+    },
+    "key.reliable_remover.rrv_delete": {
+      "key": "key.keyboard.delete",
+      "modifier": "NONE"
     },
     "key.right": {
       "key": "key.keyboard.d",
@@ -990,7 +1030,7 @@
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.modelViewScreen": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.end",
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.toggleAdjustMode": {
@@ -1002,7 +1042,7 @@
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.togglePerspective": {
-      "key": "key.keyboard.f12",
+      "key": "key.keyboard.f6",
       "modifier": "NONE"
     },
     "key.zarith.shift_down": {

@@ -29,7 +29,7 @@
     // Show a toast naming the track when playback changes on a receiver nearby.
     // Turning it off means no announcement of a track change.
     // Accepts true or false. Default: true.
-    trackChangeToast: true,
+    trackChangeToast: false,
     // Show the track's cover art on that toast, and on a display's now-playing card.
     // Fetching it means this client connects to whoever hosts the image, which is a
     // separate decision from whether to show the toast at all. With this off the

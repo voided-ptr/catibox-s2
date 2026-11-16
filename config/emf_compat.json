@@ -1,5 +1,15 @@
 {
   "configVersion": 1,
-  "booleans": {},
+  "booleans": {
+    "bettercombat.smoothAttackStart": true,
+    "debug.grip_markers": false,
+    "wallhand.trace": false,
+    "touchnmotion.enabled": true,
+    "bettercombat.bodyFollowArms": true,
+    "gesture.actAfter": true,
+    "lookat.monsters": true,
+    "plantreach.all": true,
+    "bettercombat.enabled": true
+  },
   "numbers": {}
 }
