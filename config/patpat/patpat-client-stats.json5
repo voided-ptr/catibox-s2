@@ -1,6 +1,6 @@
 {
   "totalPatsCounter": {
-    "pats": 464
+    "pats": 475
   },
   "entities": {
     "alexsmobs:emu": {
@@ -17,6 +17,9 @@
     },
     "alexsmobs:gorilla": {
       "pats": 10
+    },
+    "alexsmobs:seal": {
+      "pats": 9
     },
     "minecraft:trader_llama": {
       "pats": 14
@@ -55,7 +58,7 @@
       "pats": 2
     },
     "notchcurrency:notch_npc": {
-      "pats": 146
+      "pats": 147
     },
     "antarchy:scorpion": {
       "pats": 18

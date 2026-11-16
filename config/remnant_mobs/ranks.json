@@ -1,0 +1,76 @@
+// Remnants: RPG Mobs 3.0: ranks.
+// Edit and run /remnants reload, or restart. Missing keys are restored with their defaults.
+{
+  // When false, every leveled mob is Common: no ranks, no traits.
+  "enabled": true,
+
+  // Rank chances grow with level: chance x (1 + level / level_chance_divisor).
+  "level_chance_divisor": 100,
+
+  // Rank chances of mobs from monster spawners are multiplied by this.
+  "spawner_multiplier": 0.1,
+
+  // Checked from the rarest rank down. chance: base chance (0-1). min_level: lowest level it
+  // can appear at. health and damage multiply the leveled stats; armor is added. traits: how many it
+  // rolls (0-4). experience multiplies dropped experience; loot_rolls rolls the mob's loot table that many
+  // extra times; it drops shards_min to shards_max Remnant Shards.
+  "ranks": {
+    "veteran": {
+      "chance": 0.1,
+      "min_level": 10,
+      "health": 1.5,
+      "damage": 1.1,
+      "armor": 2.0,
+      "traits": 1,
+      "experience": 2.0,
+      "loot_rolls": 1,
+      "shards_min": 0,
+      "shards_max": 1
+    },
+    "elite": {
+      "chance": 0.05,
+      "min_level": 15,
+      "health": 2,
+      "damage": 1.33,
+      "armor": 4.0,
+      "traits": 2,
+      "experience": 3.0,
+      "loot_rolls": 1,
+      "shards_min": 0,
+      "shards_max": 0
+    },
+    "champion": {
+      "chance": 0.03,
+      "min_level": 20,
+      "health": 2.67,
+      "damage": 1.45,
+      "armor": 6.0,
+      "traits": 3,
+      "experience": 5.0,
+      "loot_rolls": 2,
+      "shards_min": 0,
+      "shards_max": 0
+    },
+    "remnant": {
+      "chance": 0.01,
+      "min_level": 25,
+      "health": 3.25,
+      "damage": 1.75,
+      "armor": 10.0,
+      "traits": 4,
+      "experience": 10.0,
+      "loot_rolls": 4,
+      "shards_min": 0,
+      "shards_max": 0
+    }
+  },
+
+  // Remnant-rank mobs: a generated title, a boss bar for nearby players, a server message when
+  // slain, and a horn heard by players within horn_radius blocks when one appears.
+  "remnant": {
+    "titles": false,
+    "boss_bar": false,
+    "announce": false,
+    "horn_radius": 48
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "format": "lootbeamsup:preset_graph",
+  "formatVersion": 1,
+  "viewport": {
+    "center": [
+      492.10623,
+      40.595966
+    ],
+    "zoom": 0.35
+  },
+  "nodes": [
+    {
+      "id": "baseConfiguration",
+      "type": "baseConfiguration",
+      "name": "Base Configuration",
+      "position": [
+        90.64251,
+        -284.9617
+      ],
+      "config": {
+        "items": {
+          "allowAll": true,
+          "allowEquipment": true,
+          "allowRare": false,
+          "whitelist": [],
+          "blacklist": [],
+          "colorOverrides": []
+        },
+        "nametags": {
+          "useAdvancedTooltips": true,
+          "useWorldspaceTooltips": true,
+          "useItemFrameTooltips": true,
+          "renderTooltipsInThirdPersonView": true,
+          "useBorders": true,
+          "renderNametags": true,
+          "renderNametagsOnLook": true,
+          "renderItemRarity": true,
+          "renderItemRarityInTooltip": true,
+          "renderStackCount": true,
+          "color": {
+            "mode": "beam",
+            "color": "#FFFFFF",
+            "opacity": 1.0
+          },
+          "nametagLookSensitivity": 0.018,
+          "nametagTextAlpha": 1.0,
+          "nametagScale": 1.0,
+          "nametagYOffset": 0.75,
+          "useWhiteRarities": false,
+          "useVanillaRarities": false,
+          "isScreenTooltipsRequireCrouch": false,
+          "canCombineNameAndRarity": true,
+          "customRarities": [],
+          "alwaysDrawRaritiesOn": [
+            "%Music Disc"
+          ]
+        },
+        "channels": []
+      }
+    },
+    {
+      "id": "effectOutput",
+      "type": "effectOutput",
+      "name": "Effect Output",
+      "position": [
+        871.625,
+        -80.95238
+      ],
+      "config": {}
+    },
+    {
+      "id": "defaultBloom",
+      "type": "postEffect",
+      "name": "defaultBloom",
+      "position": [
+        -421.03827,
+        64.45053
+      ],
+      "config": {
+        "type": "lootbeamsup:soft_bloom",
+        "parameters": {
+          "threshold": 0.0,
+          "exposure": 1.5,
+          "intensity": 2.0,
+          "downsampleRate": 2.0,
+          "radius": 4.0,
+          "iterations": 1.0
+        }
+      }
+    },
+    {
+      "id": "beam",
+      "type": "beam",
+      "name": "Beam",
+      "position": [
+        95.071045,
+        -210.51422
+      ],
+      "config": {
+        "useNameColor": true,
+        "useRarityColor": true,
+        "useStaticColor": false,
+        "color": "#FFFFFF",
+        "colorShimmer": true,
+        "shimmerGradient": [
+          {
+            "position": 0.0,
+            "source": "inherit",
+            "opacity": 100.0
+          },
+          {
+            "position": 50.0,
+            "source": "inherit",
+            "modifiers": [
+              "+h40"
+            ],
+            "opacity": 100.0
+          },
+          {
+            "position": 100.0,
+            "source": "inherit",
+            "opacity": 100.0
+          }
+        ],
+        "shimmerPeriod": 4.0,
+        "alpha": 1.0,
+        "minAlpha": 0.0,
+        "blending": "colored",
+        "appearance": "animated_effect",
+        "animatedEffect": "lootbeamsup:examples/loot_beam_like",
+        "animatedEffectSettings": {},
+        "isDroplightAnimated": false,
+        "droplightAnimationSpeed": 1.0,
+        "gradientModifiers": [
+          "-h50",
+          "+s35",
+          "-v50"
+        ],
+        "useCosmicEffect": true,
+        "gradient": [
+          {
+            "position": 0.0,
+            "source": "inherit",
+            "opacity": 100.0
+          },
+          {
+            "position": 50.0,
+            "source": "inherit",
+            "opacity": 100.0
+          },
+          {
+            "position": 100.0,
+            "source": "inherit",
+            "opacity": 0.0
+          }
+        ],
+        "isSolid": true,
+        "hasWhiteCenter": true,
+        "isGlowing": true,
+        "isFollowItemPosition": true,
+        "isFollowItemRotation": false,
+        "useSmoothSize": true,
+        "appear": {
+          "value": 1.0,
+          "driver": {
+            "input": "time",
+            "mode": "loop",
+            "duration": 1.0
+          },
+          "curve": {
+            "interpolation": "smooth",
+            "keys": [
+              {
+                "time": 0.0,
+                "value": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 2.0
+              }
+            ]
+          }
+        },
+        "radius": 0.25,
+        "minRadius": 0.0,
+        "height": 3.0,
+        "minHeight": 0.0,
+        "offsetY": 0.0,
+        "renderDistance": 32.0,
+        "changeDelay": 1.0,
+        "approachOpacity": {
+          "value": 1.0,
+          "driver": {
+            "input": "distance",
+            "from": 2.0,
+            "to": 16.0
+          },
+          "curve": {
+            "interpolation": "linear",
+            "keys": [
+              {
+                "time": 0.0,
+                "value": 1.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        "approachSize": 1.0,
+        "isCommonShorter": true,
+        "requireOnGround": false
+      }
+    },
+    {
+      "id": "light",
+      "type": "light",
+      "name": "Light",
+      "position": [
+        93.18333,
+        -115.40303
+      ],
+      "config": {
+        "type": "CAPSULE",
+        "isFollowItemPosition": true,
+        "offsetY": 0.0,
+        "color": {
+          "mode": "beam",
+          "color": "#FFFFFF",
+          "opacity": 1.0
+        },
+        "radius": 0.5,
+        "intensity": 1.0,
+        "occlusion": 2.0
+      }
+    },
+    {
+      "id": "dropSound",
+      "type": "dropSound",
+      "name": "entity.cat.meow",
+      "position": [
+        94.13651,
+        -21.87284
+      ],
+      "config": {
+        "soundVolume": 1.0
+      }
+    },
+    {
+      "id": "ambient",
+      "type": "particleEmitter",
+      "name": "sparkles",
+      "position": [
+        96.89467,
+        252.62927
+      ],
+      "config": {
+        "script": "default",
+        "texture": "lootbeamsup:sparkle",
+        "blending": "particle",
+        "color": {
+          "mode": "beam",
+          "color": "#FFFFFF",
+          "opacity": 1.0
+        },
+        "isInheritsColor": true,
+        "spriteUpdateInterval": 1,
+        "count": 2.0,
+        "lifetime": 30,
+        "size": 0.2,
+        "useRandomSize": true,
+        "angleRadius": false,
+        "radius": 0.4,
+        "radialVerticesCount": 3,
+        "radialVerticesAngleOffset": 0,
+        "isClippedToAngle": false,
+        "isRotateAngle": false,
+        "isRotateAngleByPlayerYaw": false,
+        "radiusAngleRotationSpeed": 0.5,
+        "positionX": 0.0,
+        "positionY": 0.0,
+        "positionZ": 0.0,
+        "isFollowItemPosition": false,
+        "useRandomY": true,
+        "useRandomRadialPosition": true,
+        "speed": 0.3,
+        "speedX": 0.02,
+        "speedY": 0.04,
+        "speedZ": 0.02,
+        "movementOverLifetime": {
+          "interpolation": "linear",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 1.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0
+            }
+          ]
+        },
+        "alphaOverLifetime": {
+          "interpolation": "smooth",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 0.5,
+              "value": 1.0
+            },
+            {
+              "time": 1.0,
+              "value": 0.0
+            }
+          ]
+        },
+        "useConstantVerticalSpeed": false,
+        "attraction": 0.0,
+        "randomnessIntensity": 0.05,
+        "isRareOnly": true,
+        "directionX": 0.0,
+        "directionY": 1.0,
+        "directionZ": 0.0,
+        "isSpinAroundBeam": false,
+        "orbitMode": "vortex"
+      }
+    },
+    {
+      "id": "trails",
+      "type": "particleEmitter",
+      "name": "trails",
+      "position": [
+        96.4588,
+        357.96475
+      ],
+      "config": {
+        "script": "default",
+        "texture": "lootbeamsup:glow",
+        "blending": "particle",
+        "color": {
+          "mode": "beam",
+          "color": "#FFFFFF",
+          "opacity": 1.0
+        },
+        "isInheritsColor": true,
+        "spriteUpdateInterval": 1,
+        "count": 2.0,
+        "lifetime": 30,
+        "size": 0.25,
+        "useRandomSize": true,
+        "angleRadius": false,
+        "radius": 0.4,
+        "radialVerticesCount": 3,
+        "radialVerticesAngleOffset": 0,
+        "isClippedToAngle": false,
+        "isRotateAngle": false,
+        "isRotateAngleByPlayerYaw": false,
+        "radiusAngleRotationSpeed": 0.5,
+        "positionX": 0.0,
+        "positionY": 0.0,
+        "positionZ": 0.0,
+        "isFollowItemPosition": false,
+        "useRandomY": true,
+        "useRandomRadialPosition": true,
+        "speed": 0.2,
+        "speedX": 0.02,
+        "speedY": 0.04,
+        "speedZ": 0.02,
+        "movementOverLifetime": {
+          "interpolation": "linear",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 1.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0
+            }
+          ]
+        },
+        "alphaOverLifetime": {
+          "interpolation": "smooth",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 0.5,
+              "value": 1.0
+            },
+            {
+              "time": 1.0,
+              "value": 0.0
+            }
+          ]
+        },
+        "useConstantVerticalSpeed": false,
+        "attraction": 0.0,
+        "randomnessIntensity": 0.05,
+        "isRareOnly": true,
+        "directionX": 0.0,
+        "directionY": 1.0,
+        "directionZ": 0.0,
+        "isSpinAroundBeam": false,
+        "orbitMode": "vortex"
+      }
+    },
+    {
+      "id": "trailsTrail",
+      "type": "trail",
+      "name": "trailsTrail",
+      "position": [
+        -161.5075,
+        565.6294
+      ],
+      "config": {
+        "color": {
+          "mode": "beam",
+          "color": "#FFFFFF",
+          "opacity": 1.0
+        },
+        "isMakeParticleInvisible": true,
+        "lengthBlocks": 1.0,
+        "minVertexDistance": 0.01,
+        "chance": 1.0,
+        "width": {
+          "value": 0.02,
+          "driver": {
+            "input": "trail_position"
+          },
+          "curve": {
+            "interpolation": "smooth",
+            "keys": [
+              {
+                "time": 0.0,
+                "value": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 0.02
+              },
+              {
+                "time": 1.0,
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        "alpha": {
+          "value": 1.0,
+          "driver": {
+            "input": "trail_position"
+          },
+          "curve": {
+            "interpolation": "smooth",
+            "keys": [
+              {
+                "time": 0.0,
+                "value": 0.0
+              },
+              {
+                "time": 0.5,
+                "value": 1.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "planeEffect",
+      "type": "planeEffect",
+      "name": "planeEffect",
+      "position": [
+        95.370766,
+        161.0045
+      ],
+      "config": {
+        "customShader": "none",
+        "useGradient": true,
+        "gradientModifiers": [
+          "-h50",
+          "+s35",
+          "-v50"
+        ],
+        "gradientStart": 0.0,
+        "gradientEnd": 100.0,
+        "useSmoothRadius": false,
+        "useSmoothAlpha": true,
+        "scaleRadiusByDistance": true,
+        "scaleAlphaByDistance": true,
+        "isFollowItemPosition": false,
+        "isFollowItemRotation": false,
+        "texture": "lootbeamsup:glow",
+        "color": {
+          "mode": "beam",
+          "color": "#FFFFFF",
+          "opacity": 1.0
+        },
+        "radius": 1.5,
+        "offsetY": 0.0,
+        "alpha": 1.0,
+        "isRotating": false,
+        "isRotatingClockwise": true,
+        "rotationSpeed": 1.0
+      }
+    },
+    {
+      "id": "postEffect",
+      "type": "postEffect",
+      "name": "postEffect",
+      "position": [
+        382.471,
+        468.97186
+      ],
+      "config": {
+        "type": "lootbeamsup:outline",
+        "parameters": {
+          "width": 32.0
+        }
+      }
+    },
+    {
+      "id": "postEffect2",
+      "type": "postEffect",
+      "name": "Rays",
+      "position": [
+        782.8717,
+        278.69104
+      ],
+      "config": {
+        "type": "lootbeamsup:god_rays",
+        "parameters": {}
+      }
+    }
+  ],
+  "links": [
+    {
+      "fromNode": "baseConfiguration",
+      "fromPort": "configuration",
+      "toNode": "effectOutput",
+      "toPort": "baseConfiguration"
+    },
+    {
+      "fromNode": "beam",
+      "fromPort": "beam",
+      "toNode": "effectOutput",
+      "toPort": "beam"
+    },
+    {
+      "fromNode": "defaultBloom",
+      "fromPort": "postEffect",
+      "toNode": "beam",
+      "toPort": "postEffect"
+    },
+    {
+      "fromNode": "light",
+      "fromPort": "light",
+      "toNode": "effectOutput",
+      "toPort": "light"
+    },
+    {
+      "fromNode": "planeEffect",
+      "fromPort": "planeEffect",
+      "toNode": "effectOutput",
+      "toPort": "planeEffects"
+    },
+    {
+      "fromNode": "ambient",
+      "fromPort": "emitter",
+      "toNode": "effectOutput",
+      "toPort": "particleEmitters"
+    },
+    {
+      "fromNode": "trails",
+      "fromPort": "emitter",
+      "toNode": "effectOutput",
+      "toPort": "particleEmitters"
+    },
+    {
+      "fromNode": "trailsTrail",
+      "fromPort": "trail",
+      "toNode": "trails",
+      "toPort": "trail"
+    },
+    {
+      "fromNode": "defaultBloom",
+      "fromPort": "postEffect",
+      "toNode": "trailsTrail",
+      "toPort": "postEffect"
+    },
+    {
+      "fromNode": "dropSound",
+      "fromPort": "dropSound",
+      "toNode": "effectOutput",
+      "toPort": "dropSound"
+    }
+  ]
+}

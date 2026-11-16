@@ -36,9 +36,9 @@
       },
       "dimension_overrides": {
         "minecraft:overworld": {
-          "distance_chunks": -1,
-          "start_percent": 50,
-          "shape_mode": "RADIAL",
+          "distance_chunks": 0,
+          "start_percent": 100,
+          "shape_mode": "VANILLA",
           "cloud_fog_percent": 100
         }
       },
@@ -72,8 +72,8 @@
     "wayland_fullscreen_resolution": false,
     "wayland_fullscreen_resolution_recovery_pending": false,
     "use_adaptive_sync": false,
-    "cloud_height_override": true,
-    "cloud_height": 319,
+    "cloud_height_override": false,
+    "cloud_height": 79,
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,

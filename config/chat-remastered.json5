@@ -17,5 +17,19 @@
 
   "screenshotFolders": [],
 
-  "lastScreenshotFolderIndex": 0
+  "lastScreenshotFolderIndex": 0,
+
+  "linkColorNormal": 5614335,
+
+  "linkColorPressed": 11758591,
+
+  "linkOpenEnabled": true,
+
+  "groupIdenticalMessages": true,
+
+  "chatHistoryLines": 2000,
+
+  "chatHistoryLimitEnabled": false,
+
+  "chatSelectionEnabled": true
 }

@@ -9,7 +9,8 @@
     "gesture.actAfter": true,
     "lookat.monsters": true,
     "plantreach.all": true,
-    "bettercombat.enabled": true
+    "bettercombat.enabled": true,
+    "core.enabled": true
   },
   "numbers": {}
 }

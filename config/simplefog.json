@@ -5,10 +5,10 @@
   "overworldEndVoxy": 40.0,
   "rainConfig": {
     "rainToggle": true,
-    "rainStart": 0.0,
-    "rainStartIndoor": 25.0,
-    "rainEnd": 110.0,
-    "rainEndVoxy": 0.0,
+    "rainStart": 300.0,
+    "rainStartIndoor": 300.0,
+    "rainEnd": 0.0,
+    "rainEndVoxy": 75.0,
     "rainFogApplySpeed": 1.0
   },
   "netherToggle": true,
@@ -20,7 +20,7 @@
   "endEnd": 0.0,
   "endEndVoxy": 50.0,
   "waterToggle": false,
-  "waterStart": -20.0,
-  "waterEnd": 90.0,
-  "waterEndSwamp": 60.0
+  "waterStart": 100.0,
+  "waterEnd": 150.0,
+  "waterEndSwamp": 125.0
 }

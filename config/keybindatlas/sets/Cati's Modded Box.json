@@ -45,6 +45,18 @@
       "key": "key.keyboard.l",
       "modifier": "NONE"
     },
+    "key.armorhider.open_settings": {
+      "key": "key.keyboard.j",
+      "modifier": "NONE"
+    },
+    "key.armorhider.preset": {
+      "key": "key.keyboard.grave.accent",
+      "modifier": "NONE"
+    },
+    "key.armorhider.toggle_keybind": {
+      "key": "key.keyboard.k",
+      "modifier": "NONE"
+    },
     "key.attack": {
       "key": "key.mouse.left",
       "modifier": "NONE"
@@ -142,7 +154,7 @@
       "modifier": "NONE"
     },
     "key.debug.reloadLanguages": {
-      "key": "key.keyboard.j",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.debug.reloadResourcePacks": {
@@ -167,6 +179,10 @@
     },
     "key.debug.switchGameMode": {
       "key": "key.keyboard.f4",
+      "modifier": "NONE"
+    },
+    "key.detailab.open_config": {
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.disable_voice_chat": {
@@ -219,6 +235,10 @@
     },
     "key.drop": {
       "key": "key.keyboard.q",
+      "modifier": "NONE"
+    },
+    "key.easy_mob_spawn_control.openspawncrontrolscreen": {
+      "key": "key.keyboard.k",
       "modifier": "NONE"
     },
     "key.effortlessbuilding.open_modifiers_screen": {
@@ -290,7 +310,7 @@
       "modifier": "NONE"
     },
     "key.hide_icons": {
-      "key": "key.keyboard.h",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.hotbar.1": {
@@ -474,6 +494,14 @@
       "modifier": "NONE"
     },
     "key.loadToolbarActivator": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.mc2_interactivefoliage.open_config": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "key.mc2_interactivefoliage.toggle": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
@@ -954,11 +982,11 @@
       "modifier": "NONE"
     },
     "key.treeliable.cycle_sneak_behavior": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.minus",
       "modifier": "NONE"
     },
     "key.treeliable.toggle_chopping": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.equal",
       "modifier": "NONE"
     },
     "key.use": {
@@ -1030,7 +1058,7 @@
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.modelViewScreen": {
-      "key": "key.keyboard.end",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.toggleAdjustMode": {
@@ -1042,7 +1070,7 @@
       "modifier": "NONE"
     },
     "key.xtracr_realcamera.togglePerspective": {
-      "key": "key.keyboard.f6",
+      "key": "key.keyboard.f12",
       "modifier": "NONE"
     },
     "key.zarith.shift_down": {
@@ -1114,7 +1142,7 @@
       "modifier": "NONE"
     },
     "lootbeamsup.keybindings.openMenu": {
-      "key": "key.keyboard.keypad.5",
+      "key": "key.keyboard.end",
       "modifier": "NONE"
     },
     "patpat.keybinding.pat": {
@@ -1148,6 +1176,18 @@
     "terrastorage.keybinding.sort_inventory_bind": {
       "key": "key.keyboard.r",
       "modifier": "ALT"
+    },
+    "tooltipoverhaul.binds.compare_bind": {
+      "key": "key.keyboard.left.shift",
+      "modifier": "NONE"
+    },
+    "tooltipoverhaul.binds.open_config": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "tooltipoverhaul.binds.pin_tooltip": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE"
     },
     "zoomify.key.zoom": {
       "key": "key.keyboard.c",
