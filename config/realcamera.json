@@ -270,7 +270,7 @@
   },
   "enabled": true,
   "isClassic": false,
-  "dynamicCrosshair": true,
+  "dynamicCrosshair": false,
   "renderModel": true,
   "adjustStep": 0.01
 }

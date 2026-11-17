@@ -1,6 +1,6 @@
 {
   "totalPatsCounter": {
-    "pats": 475
+    "pats": 531
   },
   "entities": {
     "alexsmobs:emu": {
@@ -49,7 +49,7 @@
       "pats": 16
     },
     "minecraft:player": {
-      "pats": 26
+      "pats": 82
     },
     "minecraft:witch": {
       "pats": 2

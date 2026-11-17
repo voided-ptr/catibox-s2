@@ -6,6 +6,7 @@
 !resourcepacks/
 !options.txt
 !CatiCardboardBoxLATEST.mrpack
+!CatiCardboardBoxBBLATEST.mrpack
 
 # dont ignore the gitignore duh
 !.gitignore

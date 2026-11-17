@@ -246,8 +246,8 @@
       "modifier": "NONE"
     },
     "key.effortlessbuilding.open_radial_menu": {
-      "key": "key.keyboard.left.alt",
-      "modifier": "NONE"
+      "key": "key.keyboard.b",
+      "modifier": "CONTROL"
     },
     "key.effortlessbuilding.redo.desc": {
       "key": "key.keyboard.y",
@@ -686,7 +686,7 @@
       "modifier": "NONE"
     },
     "key.notchcurrency.bounty_tracker": {
-      "key": "key.keyboard.b",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.optigui.inspect": {
@@ -1006,7 +1006,7 @@
       "modifier": "NONE"
     },
     "key.voice_chat_settings": {
-      "key": "key.keyboard.unknown",
+      "key": "key.keyboard.v",
       "modifier": "NONE"
     },
     "key.voice_chat_toggle_recording": {
@@ -1014,7 +1014,7 @@
       "modifier": "NONE"
     },
     "key.weaponmaster_ydm.opengui": {
-      "key": "key.keyboard.v",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.whisper": {
@@ -1074,7 +1074,7 @@
       "modifier": "NONE"
     },
     "key.zarith.shift_down": {
-      "key": "key.keyboard.v",
+      "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
     "key.zarith.shift_up": {

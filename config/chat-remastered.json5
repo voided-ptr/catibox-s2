@@ -5,7 +5,7 @@
 
   "inputPreviewScale": 1.0,
 
-  "fullscreenChat": true,
+  "fullscreenChat": false,
 
   "closedChatLines": 20,
 
@@ -27,9 +27,9 @@
 
   "groupIdenticalMessages": true,
 
-  "chatHistoryLines": 2000,
+  "chatHistoryLines": 200,
 
-  "chatHistoryLimitEnabled": false,
+  "chatHistoryLimitEnabled": true,
 
   "chatSelectionEnabled": true
 }
