@@ -1,0 +1,21 @@
+{
+  "enableMod": true,
+  "usePlasmoVoice": true,
+  "useSimpleVoiceChat": true,
+  "displayMode": "HEADS_ROW",
+  "hudAnchor": "TOP_LEFT",
+  "offset": [
+    0,
+    0
+  ],
+  "headSize": 10,
+  "speakingAnimation": "PULSE",
+  "highlight": true,
+  "accentColor": "PLAYER",
+  "showNames": false,
+  "nameLength": 16,
+  "showSelf": false,
+  "maxTalkers": 4,
+  "backgroundOpacity": 50,
+  "fadeSeconds": 1.2
+}
