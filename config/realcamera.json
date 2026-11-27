@@ -31,7 +31,8 @@
     "rotationSmoothFactor": 0.4,
     "disableMainFeatureItems": [],
     "disableRenderItems": [
-      "minecraft:filled_map"
+      "minecraft:filled_map",
+      "artifacts:umbrella"
     ],
     "fixedTargetList": [
       {
@@ -270,7 +271,7 @@
   },
   "enabled": true,
   "isClassic": false,
-  "dynamicCrosshair": false,
+  "dynamicCrosshair": true,
   "renderModel": true,
   "adjustStep": 0.01
 }

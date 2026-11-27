@@ -134,7 +134,7 @@
     java: {
       // Decode with Soundstage's own decoder, which needs nothing installed.
       // Accepts true or false. Default: false.
-      enabled: false
+      enabled: true
     }
   },
   sharing: {

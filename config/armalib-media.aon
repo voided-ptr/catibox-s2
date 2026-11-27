@@ -1,0 +1,6 @@
+{
+  // The video decoders' switches and order, and the optional downloads agreed to, as the media page keeps them.
+  // Accepts a list of text. Default: [].
+  entries: [
+  ]
+}

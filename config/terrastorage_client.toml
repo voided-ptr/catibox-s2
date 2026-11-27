@@ -24,7 +24,7 @@ buttons_style = "DEFAULT"
 #==========
 #The placement of the storage option buttons
 #Default: RIGHT
-buttons_placement = "LEFT"
+buttons_placement = "RIGHT"
 #==========
 #The horizontal offset of the storage option buttons
 #Range: -100 to 100, inclusive

@@ -3,7 +3,7 @@
     "voice": 0,
     "music": 3,
     "hostile": 5,
-    "record": 3,
+    "record": 8,
     "weather": 1,
     "neutral": 2,
     "block": 6,
@@ -12,9 +12,9 @@
   },
   "maxPercentPerCategory": {
     "voice": 1.0,
-    "music": 0.7,
+    "music": 0.7015955,
     "hostile": 0.9,
-    "record": 0.7,
+    "record": 0.80114436,
     "weather": 0.5,
     "neutral": 0.6,
     "block": 0.8,
@@ -25,6 +25,6 @@
     "music"
   ],
   "soundVolumes": {},
-  "maxDuplicatedSoundsByPos": 5,
-  "maxDuplicatedSoundsById": 50
+  "maxDuplicatedSoundsByPos": 10,
+  "maxDuplicatedSoundsById": 100
 }

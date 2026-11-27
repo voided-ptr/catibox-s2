@@ -5,7 +5,7 @@
     "debugLogEnabled": false,
     "patCombination": {
       "attributeKey": {
-        "id": 340,
+        "id": 341,
         "type": "keysym"
       },
       "key": {

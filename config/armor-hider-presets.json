@@ -52,6 +52,10 @@
             "armory_rpgs:scarlet_robe_head": {
               "displayName": "Scarlet Hat",
               "shouldIgnore": false
+            },
+            "archers:archer_armor_head": {
+              "displayName": "Archer Hood",
+              "shouldIgnore": false
             }
           },
           "CHEST": {
@@ -82,6 +86,10 @@
             "minecraft:elytra": {
               "displayName": "Elytra",
               "shouldIgnore": false
+            },
+            "archers:archer_armor_chest": {
+              "displayName": "Archer Tunic",
+              "shouldIgnore": false
             }
           },
           "LEGS": {
@@ -107,6 +115,10 @@
             },
             "minecraft:netherite_leggings": {
               "displayName": "Netherite Leggings",
+              "shouldIgnore": false
+            },
+            "archers:archer_armor_legs": {
+              "displayName": "Archer Leggings",
               "shouldIgnore": false
             }
           },
@@ -134,12 +146,16 @@
             "minecraft:netherite_boots": {
               "displayName": "Netherite Boots",
               "shouldIgnore": false
+            },
+            "archers:archer_armor_feet": {
+              "displayName": "Archer Boots",
+              "shouldIgnore": false
             }
           },
           "OFFHAND": {
             "minecraft:shield": {
               "displayName": "Shield",
-              "shouldIgnore": false
+              "shouldIgnore": true
             }
           }
         }
@@ -196,6 +212,10 @@
             },
             "armory_rpgs:scarlet_robe_head": {
               "displayName": "Scarlet Hat",
+              "shouldIgnore": false
+            },
+            "armory_rpgs:glacier_robe_head": {
+              "displayName": "Glacier Hat",
               "shouldIgnore": false
             }
           },
@@ -718,5 +738,9 @@
       }
     }
   ],
-  "activeIndex": 1
+  "activeIndex": 2,
+  "quickToggleA": 0,
+  "quickToggleB": 1,
+  "quickToggleKeyChecked": true,
+  "quickToggleNoticePending": false
 }

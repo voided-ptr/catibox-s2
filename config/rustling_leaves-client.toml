@@ -7,7 +7,7 @@
 	#How often leaves fall from trees (multiplier, 0 disables falling leaves).
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
-	fallRate = 0.5
+	fallRate = 0.67
 	#Whether the tree matters: birches shed more leaves, spruces and other conifers hardly any.
 	treeFallRates = true
 	#Whether leaves placed by players (hedges, leaf roofs, decorations) shed leaves and get a leaf carpet
@@ -46,7 +46,7 @@
 	#Share of leaves that fall in autumn colors (yellow, orange, red, brown) instead of the tree's color.
 	# Default: 0.35
 	# Range: 0.0 ~ 1.0
-	autumnColors = 0.35
+	autumnColors = 0.0
 	#How far away lying leaves are shown, in blocks (also limited by the render distance).
 	#Beyond about 70 blocks they are drawn as a cheap simplified layer.
 	# Default: 128
@@ -96,7 +96,7 @@
 	#most in mid and late autumn, the last ones in early winter) and hardly at all in winter, spring and summer;
 	#cherry trees shed their blossom in spring. The litter on the ground rots away before the snow comes, and new
 	#ground gets a thick carpet of leaves only in autumn. Biomes and dimensions without seasons are not affected.
-	enabled = true
+	enabled = false
 	#How many leaves fall at the peak of autumn, in mid and late autumn (multiplier of leaves.fallRate;
 	#about a third of it in early autumn, a few in early winter).
 	# Default: 3.0

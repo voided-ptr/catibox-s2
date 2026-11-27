@@ -1,0 +1,7 @@
+{
+  "useNativeResMapImages": true,
+  "maxImageSize": "NATIVE",
+  "previewMapsInTooltip": true,
+  "previewPaintingsInTooltip": true,
+  "notifyWhenServerSupports": true
+}

@@ -62,8 +62,8 @@
     // Accepts true or false. Default: true.
     enableMediaFolder: true
   },
-  // How the server makes video for screens. The programs and libraries it makes pictures with
-  // are under backends.
+  // How the server makes video for screens. FFmpeg's libraries, when the server needs them, are
+  // set on the Video and audio decoders page.
   video: {
     // Whether screens show video. On by default. Off, a display shows what is playing
     // instead of a picture; the sound is the same either way.
@@ -92,47 +92,13 @@
     // that would go over are sent in a smaller version or converted to fit, as maxPlayerKbps
     // does; where neither can be done, the displays say the server can't keep up.
     // Accepts a whole number from 0 to 10000000. Default: 0.
-    maxUploadKbps: 0
-  },
-  // How this server turns video into pictures for screens. The first one that is on and works is used.
-  backends: {
-    // The backends in the order they are tried. One that is not listed is off.
-    // system is the ffmpeg found on the PATH, provided the ffmpeg program named by path below or the one
-    // Soundstage downloaded, fast the downloaded video libraries.
-    // Accepts a list of text. Default: ["system", "provided", "fast"].
-    order: [
-      "system",
-      "provided",
-      "fast"
-    ],
-    system: {
-      // Use the ffmpeg found on the PATH when it checks out.
-      // Accepts true or false. Default: true.
-      enabled: true,
-      // Let it use the graphics card. It falls back to the processor when the card cannot.
-      // Accepts true or false. Default: true.
-      gpu: true
-    },
-    provided: {
-      // Use the ffmpeg program named by path when it checks out.
-      // Accepts true or false. Default: true.
-      enabled: true,
-      // Let it use the graphics card. It falls back to the processor when the card cannot.
-      // Accepts true or false. Default: true.
-      gpu: true,
-      // The ffmpeg program to use for provided, a full path. Empty uses the one Soundstage downloaded,
-      // when there is one.
-      // Accepts text. Default: "".
-      path: ""
-    },
-    fast: {
-      // Use the downloaded video libraries when it checks out.
-      // Accepts true or false. Default: true.
-      enabled: true,
-      // Let it use the graphics card. It falls back to the processor when the card cannot.
-      // Accepts true or false. Default: true.
-      gpu: true
-    }
+    maxUploadKbps: 0,
+    // Encoders on the processor this server does not make copies with, by name, such as libavcodec,
+    // openh264 or ffmpeg-pack. The others are used for pictures of 1080 lines or fewer when no
+    // graphics card encoder fits; the codec pack's only once an operator agreed to its licence.
+    // Accepts a list of text. Default: [].
+    softwareEncodersOff: [
+    ]
   },
   // Regex filters applied to the links players ask to play, before they are resolved.
   // If allow is non-empty a URL must match at least one entry to be accepted, and deny
@@ -177,5 +143,25 @@
     // spaces and punctuation, at most 32 characters. Used only with hive365Key.
     // Accepts text. Default: "".
     serverName: ""
+  },
+  backends: {
+    order: [
+      "system",
+      "provided",
+      "fast"
+    ],
+    system: {
+      enabled: true,
+      gpu: true
+    },
+    provided: {
+      enabled: true,
+      gpu: true,
+      path: ""
+    },
+    fast: {
+      enabled: true,
+      gpu: true
+    }
   }
 }

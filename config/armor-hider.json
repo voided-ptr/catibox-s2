@@ -1,6 +1,6 @@
 {
-  "configVersion": 15,
-  "helmetOpacity": 0.15,
+  "configVersion": 16,
+  "helmetOpacity": 1.0,
   "chestOpacity": 1.0,
   "legsOpacity": 1.0,
   "bootsOpacity": 1.0,
@@ -56,10 +56,6 @@
         },
         "armory_rpgs:scarlet_robe_head": {
           "displayName": "Scarlet Hat",
-          "shouldIgnore": false
-        },
-        "armory_rpgs:glacier_robe_head": {
-          "displayName": "Glacier Hat",
           "shouldIgnore": false
         }
       },
@@ -154,7 +150,7 @@
     }
   },
   "showSettingsInSkinCustomization": false,
-  "settingsScreenLocation": "HIDDEN",
+  "settingsScreenLocation": "OPTIONS_SCREEN",
   "inCombatUseDefaultModel": false,
   "hiddenModelBehaviour": "KEEP",
   "showShieldWhenBlocking": true,
@@ -162,7 +158,7 @@
   "individualConfigurations": {},
   "useGlobalOverrideForAllPlayers": false,
   "globalPlayerOverride": {
-    "configVersion": 15,
+    "configVersion": 16,
     "helmetOpacity": 1.0,
     "chestOpacity": 1.0,
     "legsOpacity": 1.0,
@@ -320,6 +316,7 @@
     "irisDitherPhases": 16,
     "irisDitherResCap": 2048,
     "irisPartialTransparencyMode": "TEMPORAL_DITHERING",
+    "syncServerSettingsInSingleplayer": true,
     "playerId": "00000000-0000-0000-0000-000000000000",
     "playerName": "dummy"
   },
@@ -327,6 +324,7 @@
   "irisDitherPhases": 16,
   "irisDitherResCap": 2048,
   "irisPartialTransparencyMode": "TEMPORAL_DITHERING",
+  "syncServerSettingsInSingleplayer": true,
   "playerId": "34568628-6578-35aa-b70e-ee872e5a2267",
   "playerName": "LandOfPeeps"
 }

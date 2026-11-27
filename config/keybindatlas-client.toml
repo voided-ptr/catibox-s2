@@ -3,7 +3,7 @@
 	compactKeybindTextLimitEnabled = true
 	maxCompactKeybindTextLength = 32
 	legendCollapsed = false
-	selectedKeybindSet = "Cati's Modded Box"
+	selectedKeybindSet = "Cati's Modded Box v1.0"
 	categoryHelpVisible = true
 	editHelpVisible = true
 	searchHelpVisible = true
@@ -18,6 +18,9 @@
 	alternatingLineColorsEnabled = true
 	panelOpacity = 0.4000000059604645
 	maxUnhoveredAssignments = 3
+	selectedControllerSet = ""
+	controllerLayout = "PLAYSTATION"
+	radialHelpVisible = true
 
 [layout]
 	#Scales the box width limit. Text still determines the actual width.
